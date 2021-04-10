@@ -182,6 +182,7 @@
 .speakers__title {
   margin: 0;
   padding-top: 89px;
+  padding-bottom: 78px;
   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
   text-align: center;
   color: rgba(88, 88, 88, 1);
@@ -191,4 +192,11 @@
   display: flex;
   justify-content: space-between;
 
+}
+
+.footer {
+  margin: 0;
+  width: 1440px;
+  height: 250px;
+  background-color: rgb(14,30,113,1);
 }
