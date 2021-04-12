@@ -128,6 +128,7 @@
   width: 1440px;
   height: 327px;
   background-color: rgb(64,93,187,1);
+
   display: flex;
   justify-content: space-between;
 
@@ -188,9 +189,18 @@
   color: rgba(88, 88, 88, 1);
 }
 
-.speakers__image{
+.speakers__images {
+  width: 1180px;
+  height: 625px;
   display: flex;
   justify-content: space-between;
+}
+
+
+}
+.speakers__image {
+  width: 322px;
+  height: 280px;
 
 }
 
@@ -199,4 +209,61 @@
   width: 1440px;
   height: 250px;
   background-color: rgb(14,30,113,1);
+  display: flex;
+}
+
+.address {
+  display: flex;
+
+}
+
+.mesto {
+  margin: 0;
+  font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  padding-top: 49px;
+  color: rgb(225,230,233,1);
+}
+
+.location {
+  margin: 0;
+  padding-top: 49px;
+  padding-left: 134px;
+  padding-right: 7px;
+}
+
+.phone {
+  justify-content: space-between;
+  margin: 0;
+  padding-top: 48px;
+  padding-left: 708px;
+  font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  color: rgb(225,230,233,1);
+}
+.uphone {
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+
+}
+.lphone {
+  margin: 0;
+  padding-top: 45px;
+
+}
+
+.icons {
+  display: flex;
+  margin: 0;
+  padding-top: 45px;
+}
+
+.whatsappicon{
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 18px;
+}
+
+.telegramicon {
+  margin: 0;
 }
