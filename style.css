@@ -152,11 +152,10 @@
 }
 
 
-}
+
 .participant__text_subtitle {
   margin: 0;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-
 }
 
 .participant__button{
@@ -201,7 +200,6 @@
 .speakers__image {
   width: 322px;
   height: 280px;
-
 }
 
 .footer {
@@ -214,7 +212,6 @@
 
 .address {
   display: flex;
-
 }
 
 .mesto {
