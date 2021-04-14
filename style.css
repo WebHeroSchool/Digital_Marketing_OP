@@ -4,30 +4,28 @@
   margin: 0 auto;
 }
 
+ /* Первый экран меню */
+
 .main {
   margin: 0;
   background: no-repeat url(img/mainImg.png);
-  width: 100%;
+  width: 1440px;
   height: 839px;
   background-size: cover;
 }
 
 .menu {
   padding: 70px 100px 0 550px;
-
-
-
 }
 
-.menu__item{
-
+.menu__item {
   font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color:rgb(255,255,255);
   margin: 0 30px;
   text-decoration: none;
 }
 
-.main__title{
+.main__title {
   margin: 0;
   font: 900 40px/47px 'Roboto', arial, helvetica, sans-serif;
   color: rgb(255,255,255);
@@ -35,10 +33,9 @@
   padding-left: 955px;
   padding-right: 130px;
   padding-top: 132px;
-
 }
 
-.main__subtitle{
+.main__subtitle {
   padding-left: 1027px;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: rgb(255,255,255);
@@ -46,7 +43,7 @@
   padding-right: 130px;
 }
 
-.main__subtitle-2{
+.main__subtitle-2 {
   padding-left: 1107px;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: rgb(255,255,255);
@@ -54,7 +51,8 @@
   margin-bottom: 39px;
   padding-right: 130px;
 }
-.main__button{
+
+.main__button {
   margin-left: 1100px;
   margin-right: 130px;
   display: inline-block;
@@ -65,13 +63,15 @@
   border: none;
 }
 
-.middle{
+/* Купить, Забронировать */
+
+.middle {
   width: 1440px;
   height: 397px;
   background-color: rgb(227,234,254,1);
 }
 
-.middle__title{
+.middle__title {
   margin: 0;
   padding-top: 55px;
   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
@@ -85,7 +85,6 @@
   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
   color: rgb(38,59,131,1);
   text-align: center;
-
 }
 
 .middle__button{
@@ -101,7 +100,7 @@
   border: none;
 }
 
-.middle__book{
+.middle__book {
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: rgb(88,88,88,1);
   margin: 0 647px 13px;
@@ -123,42 +122,40 @@
   z-index: 1;
 }
 
-.participant{
+/* Участники, Фото */
+
+.participant {
   margin: 0;
   width: 1440px;
   height: 327px;
   background-color: rgb(64,93,187,1);
-
   display: flex;
   justify-content: space-between;
-
 }
 
-.participant__image{
+.participant__image {
   width: 464px;
   height: 327px;
   padding: 0 43px;
 }
 
-.participant__text{
+.participant__text {
   margin-left: 130px;
   margin-top: 118px;
   color: rgb(255,255,255);
 }
 
-.participant__text_title{
+.participant__text_title {
   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
   margin-bottom: 20px;
 }
-
-
 
 .participant__text_subtitle {
   margin: 0;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
 }
 
-.participant__button{
+.participant__button {
   justify-content: center;
   width: 200px;
   height: 55px;
@@ -174,7 +171,7 @@
 
 .speakers {
   margin: 0;
-  width: 100%;
+  width: 1440px;
   height: 952px;
   background-color: rgba(227, 234, 254, 1);
 }
@@ -188,19 +185,22 @@
   color: rgba(88, 88, 88, 1);
 }
 
-.speakers__images {
-  width: 1180px;
-  height: 625px;
+.speakers__images1 {
   display: flex;
+  padding-left: 126px;
+  width: 1180px;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+.speakers__images2 {
+  display: flex;
+  padding-left: 126px;
+  width: 1180px;
   justify-content: space-between;
 }
 
-
-}
-.speakers__image {
-  width: 322px;
-  height: 280px;
-}
+/* Местоположение,Адрес,Телефоны */
 
 .footer {
   margin: 0;
@@ -236,17 +236,15 @@
   font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: rgb(225,230,233,1);
 }
+
 .uphone {
   margin: 0;
   padding-bottom: 8px;
 }
 
-
-}
 .lphone {
   margin: 0;
   padding-top: 45px;
-
 }
 
 .icons {
