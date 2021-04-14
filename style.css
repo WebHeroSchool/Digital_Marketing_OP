@@ -15,50 +15,45 @@
 }
 
 .menu {
-  padding: 70px 100px 0 550px;
+  padding: 70px 97px 0 555px;
 }
 
 .menu__item {
-  font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
-  color:rgb(255,255,255);
-  margin: 0 30px;
+  font: 800 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  margin: 0 29px;
   text-decoration: none;
 }
 
 .main__title {
   margin: 0;
   font: 900 40px/47px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(255,255,255);
+  color: #e1e6e9;
   margin-bottom: 11px;
-  padding-left: 955px;
-  padding-right: 130px;
-  padding-top: 132px;
+  padding: 131px 130px 0 959px;
 }
 
 .main__subtitle {
-  padding-left: 1027px;
-  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(255,255,255);
   margin: 0;
-  padding-right: 130px;
+  padding: 0 130px 0 1027px;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  color: #e1e6e9;
 }
 
 .main__subtitle-2 {
+  margin: 0;
+  padding: 0 130px 39px 1107px;
   padding-left: 1107px;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(255,255,255);
-  margin: 0;
-  margin-bottom: 39px;
-  padding-right: 130px;
+  color: #e1e6e9;
 }
 
 .main__button {
-  margin-left: 1100px;
-  margin-right: 130px;
+  margin: 0 130px 0 1110px;
   display: inline-block;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(255,255,255);
-  background: #E0036F;
+  color: #fff;
+  background: #e0036f;
   padding: 16px 66px;
   border: none;
 }
@@ -68,7 +63,7 @@
 .middle {
   width: 1440px;
   height: 397px;
-  background-color: rgb(227,234,254,1);
+  background-color: #e3eafe;
 }
 
 .middle__title {
@@ -76,37 +71,34 @@
   padding-top: 55px;
   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
   text-align: center;
-
 }
 
-.middle__price{
-  padding-top: 10px;
-  padding-bottom: 3px;
+.middle__price {
+  padding: 10px 16px 3px 0;
   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(38,59,131,1);
+  color: #263b83;
   text-align: center;
 }
 
-.middle__button{
-  margin: 0 620px;
-  margin-bottom: 18px;
+.middle__button {
+  margin: 0 620px 18px;
   justify-content: center;
   width: 200px;
   height: 55px;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(0,0,0,1);
-  background: #FFDA45;
+  color: #000;
+  background: #ffda45;
   box-shadow: 5px 5px 20px;
   border: none;
 }
 
 .middle__book {
-  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(88,88,88,1);
+  position: relative;
   margin: 0 647px 13px;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  color: #585858;
   text-decoration: none;
   transition: color .2s linear;
-  position: relative;
 }
 
 .middle__book:after {
@@ -114,7 +106,7 @@
   display: block;
   width: 100%;
   height: 3px;
-  background-color: rgba(255, 218, 69, 1);
+  background-color: #ffda45;
   position: absolute;
   top: 100%;
   margin: 13px auto 0;
@@ -122,13 +114,13 @@
   z-index: 1;
 }
 
-/* Участники, Фото */
+/* Подать заявку */
 
 .participant {
   margin: 0;
   width: 1440px;
   height: 327px;
-  background-color: rgb(64,93,187,1);
+  background-color: #405dbb;
   display: flex;
   justify-content: space-between;
 }
@@ -140,9 +132,8 @@
 }
 
 .participant__text {
-  margin-left: 130px;
-  margin-top: 118px;
-  color: rgb(255,255,255);
+  margin: 88px 0 0 130px;
+  color: #fff;
 }
 
 .participant__text_title {
@@ -159,9 +150,7 @@
   justify-content: center;
   width: 200px;
   height: 55px;
-  margin-top: 136px;
-  margin-right: 130px;
-  margin-bottom: 136px;
+  margin: 136px 130px 136px 0;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: rgb(0,0,0,1);
   background: #FFDA45;
@@ -173,24 +162,22 @@
   margin: 0;
   width: 1440px;
   height: 952px;
-  background-color: rgba(227, 234, 254, 1);
+  background-color: #e3eafe;
 }
 
 .speakers__title {
   margin: 0;
-  padding-top: 89px;
-  padding-bottom: 78px;
+  padding: 89px 0 78px 0;
   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
   text-align: center;
-  color: rgba(88, 88, 88, 1);
+  color: #585858;
 }
 
 .speakers__images1 {
   display: flex;
-  padding-left: 126px;
+  padding: 0 0 65px 126px;
   width: 1180px;
   justify-content: space-between;
-  margin-bottom: 65px;
 }
 
 .speakers__images2 {
@@ -206,7 +193,7 @@
   margin: 0;
   width: 1440px;
   height: 250px;
-  background-color: rgb(14,30,113,1);
+  background-color: #0e1e71;
   display: flex;
 }
 
@@ -217,24 +204,23 @@
 .mesto {
   margin: 0;
   font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
-  padding-top: 49px;
-  color: rgb(225,230,233,1);
+  padding-top: 50px;
+  color: #e1e6e9;
 }
 
 .location {
   margin: 0;
-  padding-top: 49px;
-  padding-left: 134px;
-  padding-right: 7px;
+  width: 22px;
+  height: 15px;
+  padding: 48px 7px 180px 132px;
 }
 
 .phone {
   justify-content: space-between;
   margin: 0;
-  padding-top: 48px;
-  padding-left: 708px;
+  padding: 48px 0 0 708px;
   font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(225,230,233,1);
+  color: #e1e6e9;
 }
 
 .uphone {
@@ -244,7 +230,6 @@
 
 .lphone {
   margin: 0;
-  padding-top: 45px;
 }
 
 .icons {
@@ -253,12 +238,15 @@
   padding-top: 45px;
 }
 
-.whatsappicon{
+.whatsappicon {
   margin: 0;
-  padding-left: 40px;
-  padding-right: 18px;
+  width: 52px;
+  height: 52px;
+  padding: 0 18px;
 }
 
 .telegramicon {
+  width: 52px;
+  height: 43px;
   margin: 0;
 }
