@@ -163,7 +163,7 @@
   border: none;
 }
 
-/* Спикеры,фото */
+/* Спикеры, фото */
 
 .speakers {
   margin: 0;
@@ -307,6 +307,7 @@
   }
 
   /* стилизуем кнопку */
+
   .menu__btn {
     display: flex;
     align-items: center;
@@ -320,6 +321,7 @@
   }
 
 /* добавляем "гамбургер" */
+
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
