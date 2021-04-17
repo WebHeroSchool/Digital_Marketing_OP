@@ -68,9 +68,10 @@
 
 .middle__title {
   margin: 0;
-  padding-top: 55px;
+  padding: 55px 409px 0;
   font: 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
   text-align: center;
+  color: #585858;
 }
 
 .middle__price {
@@ -131,6 +132,10 @@
   padding: 0 43px;
 }
 
+.participant__image2 {
+  display: none;
+}
+
 .participant__text {
   margin: 88px 0 0 130px;
   color: #fff;
@@ -152,8 +157,8 @@
   height: 55px;
   margin: 136px 130px 136px 0;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  color: rgb(0,0,0,1);
-  background: #FFDA45;
+  color: #000;
+  background: #ffda45;
   box-shadow: 5px 5px 20px;
   border: none;
 }
@@ -169,10 +174,11 @@
 
 .speakers__title {
   margin: 0;
-  padding: 89px 0 78px 0;
+  padding: 89px 494px 78px;
   font: 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
-  text-align: center;
   color: #585858;
+  text-align: center;
+
 }
 
 .speakers__images1 {
@@ -187,6 +193,10 @@
   padding-left: 126px;
   width: 1180px;
   justify-content: space-between;
+}
+
+.spekers__images1m {
+  display: none;
 }
 
 /* Местоположение,Адрес,Телефоны */
@@ -215,6 +225,10 @@
   width: 22px;
   height: 15px;
   padding: 48px 7px 180px 132px;
+}
+
+.location2 {
+  display: none;
 }
 
 .phone {
@@ -247,6 +261,14 @@
   padding: 0 18px;
 }
 
+.whatsappicon2 {
+  display: none;
+}
+
+.telegramicon2 {
+  display: none;
+}
+
 .telegramicon {
   width: 52px;
   height: 43px;
@@ -264,7 +286,6 @@
   .wrapper {
     width: 100%;
     max-width: 320px;
-    margin: 0 auto;
   }
 
   .main {
@@ -290,8 +311,8 @@
     display: flex;
     align-items: center;
     position: absolute;
-    top: 33px;
-    right: 29px;
+    top: 40px;
+    right: 23px;
     width: 22px;
     height: 15px;
     cursor: pointer;
@@ -316,7 +337,7 @@
 
   .menu__btn > span::after {
     content: '';
-    top: 8px;
+    top: 7px;
   }
 
   .menu__box {
@@ -368,7 +389,7 @@
     margin: 0;
     font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
     text-align: center;
-    padding: 63px 28px 0;
+    padding: 43px 28px 0;
   }
 
   .main__subtitle {
@@ -382,7 +403,7 @@
     margin: 0;
     padding: 0 54px;
     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-    margin-bottom: 109px;
+    margin-bottom: 108px;
     text-align: center;
   }
 
@@ -401,7 +422,7 @@
 
   .middle__title {
     margin: 0;
-    padding: 22px 35px 0;
+    padding: 22px 40px 0 35px;
     margin-bottom: 7px;
     font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
@@ -456,18 +477,26 @@
     font: 900 10px/12px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  .participant__image img {
-    margin-right: 30px;
+  .participant__image {
+    display: none;
+  }
+
+  .participant__image2 {
+    display: block;
+    margin: 0 30px 28px;
     max-width: 260px;
     max-height: 222px;
   }
 
   .participant__button {
-    margin: 0;
+    margin: 0 30px 0;
+    padding: 0;
     width: 260px;
     height: 45px;
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
+
+/* Спикеры */
 
   .speakers {
     width: 320px;
@@ -475,8 +504,45 @@
   }
 
   .speakers__title {
+    padding: 33px 60px 28px;
     font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
     text-align: center;
+  }
+
+  .speakers__images1, .speakers__images2 {
+    display: none;
+  }
+
+  .spekers__images1m {
+    display: block;
+    padding: 0 30px;
+  }
+
+  .slider {
+    display: flex;
+    width: 66px;
+    height: 10px;
+    padding: 23px 127px 44px;
+  }
+
+  .slider__circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  .slider__circle_color_blue {
+    margin-right: 18px;
+    background: #405dbb;
+  }
+
+  .slider__circle_color_grey {
+    margin-right: 18px;
+    background: #c4c4c4;
+  }
+
+  .slider__circle_color_grey2 {
+    background: #c4c4c4;
   }
 
 /* Адрес, телефон */
@@ -493,10 +559,13 @@
   }
 
   .location {
+    display: none;
+  }
+
+  .location2 {
+    display: block;
     margin: 0;
-    width: 6px;
-    height: 9px;
-    padding: 16px 3px 67px 31px;
+    padding: 11px 2px 0 31px;
   }
 
   .phone {
@@ -515,18 +584,24 @@
   }
 
   .whatsappicon {
+    display: none;
+  }
+
+  .whatsappicon2 {
+    display: block;
     margin: 0;
     width: 20px;
-    height: 29px;
-    padding: 0 18px;
+    height: 20px;
+    padding: 0 5px 0 7px;
   }
 
   .telegramicon {
-    width: 20px;
-    height: 17px;
-
+    display: none;
   }
 
-
-
+  .telegramicon2 {
+    display: block;
+    width: 20px;
+    height: 17px;
+  }
 }
