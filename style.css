@@ -43,7 +43,6 @@
 .main__subtitle-2 {
   margin: 0;
   padding: 0 130px 39px 1107px;
-  padding-left: 1107px;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
@@ -606,4 +605,229 @@
     width: 20px;
     height: 17px;
   }
+}
+
+@media (max-width: 768px) {
+
+  .wrapper {
+    max-width: 768px;
+  }
+
+  .main {
+    width: 768px;
+    height: 447px;
+  }
+
+  .menu {
+      padding: 37px 10px 0 150px;
+
+    }
+
+    .menu__item {
+
+      margin: 0 9px;
+      font: 800 16px/19px 'Roboto', arial, helvetica, sans-serif;
+
+    }
+
+    .main__title {
+      margin: 0;
+      font: 900 35px/42px 'Roboto', arial, helvetica, sans-serif;
+      color: #e1e6e9;
+      margin-bottom: 11px;
+      padding: 70px 65px 0 347px;
+    }
+
+    .main__subtitle {
+      margin: 0;
+      padding: 0 60px 0 432px;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    }
+
+    .main__subtitle-2 {
+      margin: 0;
+      padding: 0 0 39px 494px;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
+
+    }
+
+    .main__button {
+      margin: 0 80px 0 474px;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
+
+    }
+
+
+    /* Купить, Забронировать */
+
+    .middle {
+      width: 768px;
+      height: 312px;
+    }
+
+    .middle__title {
+      padding: 15px 112px 0;
+      font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
+    }
+
+    .middle__price {
+      padding: 10px 16px 3px 0;
+      font: 900 27px/32px 'Roboto', arial, helvetica, sans-serif;
+      text-align: center;
+    }
+
+    .middle__button {
+      margin: 0 274px 15px;
+      width: 200px;
+      height: 55px;
+      font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+    }
+
+    .middle__book {
+      position: relative;
+      margin: 0 308px 13px;
+      font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+    }
+
+    /* Участник, фото */
+
+    .participant {
+      margin: 0;
+      width: 768px;
+      height: 222px;
+    }
+
+    .participant__text {
+      margin: 0;
+      padding: 40px 0 0 0;
+    }
+
+    .participant__text_title {
+      max-width: 100%;
+      margin: 0;
+      padding: 17px 24px 4px;
+      font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    }
+
+    .participant__text_subtitle {
+      margin: 0;
+      padding: 0 0 0 24px;
+      font: 500 12px/15px 'Roboto', arial, helvetica, sans-serif;
+    }
+
+    .participant__image {
+      display: none;
+    }
+
+    .participant__image2 {
+      display: block;
+      margin: 0 0 28px;
+      max-width: 260px;
+      max-height: 222px;
+    }
+
+    .participant__button {
+      margin: 70px 20px 0 0;
+      padding: 0;
+      width: 180px;
+      height: 50px;
+    }
+
+    /* Спикеры, фото */
+
+    .speakers {
+      margin: 0;
+      width: 768px;
+      height: 510px;
+    }
+
+    .speakers__title {
+      margin: 0;
+      padding: 59px 156px 50px;
+      font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
+    }
+
+    .speakers__images1 {
+      display: flex;
+      padding: 0 0 65px 100px;
+    }
+
+    .speakers__images2 {
+      display: none;
+    }
+
+
+    .spekers__images1m {
+      display: none;
+    }
+
+    /* Местоположение,Адрес,Телефоны */
+
+    .footer {
+      margin: 0;
+      width: 768px;
+      height: 150px;
+    }
+
+    .mesto {
+      margin: 0;
+      font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+      padding-top: 20px;
+    }
+
+    .location {
+      margin: 0;
+      width: 22px;
+      height: 15px;
+      padding: 20px 7px 35px 50px;
+    }
+
+    .location2 {
+      display: none;
+    }
+
+    .phone {
+      margin: 0;
+      padding: 20px 0 0 250px;
+      font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+
+    }
+
+    .uphone {
+      margin: 0;
+      padding-bottom: 8px;
+    }
+
+    .lphone {
+      margin: 0;
+    }
+
+    .icons {
+      display: flex;
+      margin: 0;
+      padding-top: 15px;
+    }
+
+    .whatsappicon {
+      margin: 0;
+      padding: 0 13px;
+    }
+
+    .whatsappicon2 {
+      display: none;
+    }
+
+    .telegramicon2 {
+      display: none;
+    }
+
+    .telegramicon {
+      width: 52px;
+      height: 43px;
+      margin: 0;
+    }
+
+    .hamburger-menu {
+      display: none;
+    }
 }
