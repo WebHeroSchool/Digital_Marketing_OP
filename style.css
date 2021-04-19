@@ -1,3 +1,8 @@
+.html, .body {
+padding: 0;
+margin: 0;
+}
+
 .wrapper {
   width: 100%;
   max-width: 1440px;
@@ -278,334 +283,264 @@
   display: none;
 }
 
- /* Медиа запрос для 320 */
+.slider {
+  display: none;
+}
 
-@media (max-width: 320px) {
+/* Медиа запрос 1024px */
+
+@media (max-width: 1024px) {
 
   .wrapper {
-    width: 100%;
-    max-width: 320px;
+    max-width: 1024px;
   }
 
   .main {
-    margin: 0;
-    height: 334px;
-    width: 320px;
+    width: 1024px;
+    height: 600px;
   }
 
   .menu {
-    display: none;
-  }
-
-  .hamburger-menu {
-    display: block;
-  }
-
-  #menu__toggle {
-    opacity: 0;
-  }
-
-  /* стилизуем кнопку */
-
-  .menu__btn {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 40px;
-    right: 23px;
-    width: 22px;
-    height: 15px;
-    cursor: pointer;
-    z-index: 1;
-  }
-
-/* добавляем "гамбургер" */
-
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background-color: #fff;
-  }
-
-  .menu__btn > span::before {
-    content: '';
-    top: -8px;
-  }
-
-  .menu__btn > span::after {
-    content: '';
-    top: 7px;
-  }
-
-  .menu__box {
-    display: block;
-    position: absolute;
-    visibility: hidden;
-    top: 0;
-    right: -100%;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 150px 0;
-    background-color: #405DBB;
-  }
+      padding: 50px 10px 0 350px;
+    }
 
   .menu__item {
-    margin: 0;
-    position: relative;
-    padding: 24px;
-    height: 36px;
-    width: max-content;
-    justify-content: center;
-    display: block;
-    font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
-    color: #fff;
-    text-decoration: none;
-  }
+      margin: 0 9px;
+      font: 800 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    }
 
-  #menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-  }
+    .main__title {
+      margin: 0;
+      font: 900 35px/42px 'Roboto', arial, helvetica, sans-serif;
+      color: #e1e6e9;
+      margin-bottom: 11px;
+      padding: 100px 65px 0 600px;
+    }
 
-  #menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0);
-  }
+    .main__subtitle {
+      margin: 0;
+      padding: 0 60px 0 680px;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    }
 
-  #menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-  }
+    .main__subtitle-2 {
+      margin: 0;
+      padding: 0 0 39px 741px;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
 
-  #menu__toggle:checked ~ .menu__box {
-    visibility: visible;
-    right: 0;
-  }
+    }
 
-  .main__title {
-    margin: 0;
-    font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
-    text-align: center;
-    padding: 43px 28px 0;
-  }
+    .main__button {
+      margin: 0 80px 0 723px;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    }
 
-  .main__subtitle {
-    margin: 0;
-    padding: 5px 54px 0;
-    font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-    text-align: center;
-  }
 
-  .main__subtitle-2 {
-    margin: 0;
-    padding: 0 54px;
-    font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-    margin-bottom: 108px;
-    text-align: center;
-  }
+    /* Купить, Забронировать */
 
-  .main__button {
-    margin: 0 30px;
-    font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-    padding: 14px 104px;
-  }
+    .middle {
+      width: 1024px;
+      height: 320px;
+    }
 
-  /* Подать заявку */
+    .middle__title {
+      padding: 35px 190px 0;
+      font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
+    }
 
-  .middle {
-    width: 320px;
-    height: 295px;
-  }
+    .middle__price {
+      padding: 0 8px 0 5px;
+      font: 900 27px/32px 'Roboto', arial, helvetica, sans-serif;
+      text-align: center;
+      margin-bottom: 17px;
+    }
 
-  .middle__title {
-    margin: 0;
-    padding: 22px 40px 0 35px;
-    margin-bottom: 7px;
-    font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  }
+    .middle__button {
+      margin: 0 415px 15px;
+      width: 200px;
+      height: 55px;
+      font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+    }
 
-  .middle__price {
-    margin: 0;
-    padding: 0;
-    margin: 0 98px 19px;
-    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-    text-align: center;
-  }
+    .middle__book {
+      margin: 0 439px 13px;
+    }
 
-  .middle__button {
-    margin: 0;
-    margin: 0 30px 28px;
-    justify-content: center;
-    padding: 11px 96px;
-    width: 260px;
-    height: 45px;
-    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  }
+    /* Участник, фото */
 
-  .middle__book {
-    margin: 0 87px;
-    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  }
+    .participant {
+      margin: 0;
+      width: 1024px;
+      height: 270px;
+    }
 
-  /* Участник, фото */
+    .participant__text {
+      margin: 0;
+      padding: 90px 0 0 30px;
+    }
 
-  .participant {
-    margin: 0;
-    width: 320px;
-    height: 442px;
-    display: block;
-  }
+    .participant__text_title {
+      max-width: 100%;
+      margin: 0;
+      padding: 17px 14px 4px;
+      font: 900 24px/29px 'Roboto', arial, helvetica, sans-serif;
+    }
 
-  .participant__text {
-    margin: 0;
-    text-align: center;
-  }
+    .participant__text_subtitle {
+      margin: 0;
+      padding: 0 0 0 14px;
+      font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    }
 
-  .participant__text_title {
-    max-width: 100%;
-    margin: 0;
-    padding: 37px 84px 4px;
-    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  }
+    .participant__image {
+      display: none;
+    }
 
-  .participant__text_subtitle {
-    margin: 0;
-    padding: 0 52px 21px;
-    font: 900 10px/12px 'Roboto', arial, helvetica, sans-serif;
-  }
+    .participant__image2 {
+      display: block;
+      margin: 25px 0;
+      max-width: 260px;
+      max-height: 222px;
+    }
 
-  .participant__image {
-    display: none;
-  }
+    .participant__button {
+      margin: 120px 90px 0 0;
+      padding: 0;
+      height: 50px;
+    }
 
-  .participant__image2 {
-    display: block;
-    margin: 0 30px 28px;
-    max-width: 260px;
-    max-height: 222px;
-  }
+    /* Спикеры, фото */
 
-  .participant__button {
-    margin: 0 30px 0;
-    padding: 0;
-    width: 260px;
-    height: 45px;
-    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-  }
+    .speakers {
+      margin: 0;
+      width: 1024px;
+      height: 600px;
+    }
 
-/* Спикеры */
+    .speakers__title {
+      margin: 0;
+      padding: 59px 270px 50px;
+      font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
+    }
 
-  .speakers {
-    width: 320px;
-    height: 471px;
-  }
+    .speakers__images1 {
+      display: flex;
+      width: 870px;
+      padding: 0 0 25px 90px;
+    }
 
-  .speakers__title {
-    padding: 33px 60px 28px;
-    font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
-    text-align: center;
-  }
+    .spkr4 {
+      display: none;
+    }
 
-  .speakers__images1, .speakers__images2 {
-    display: none;
-  }
+    .speakers__images2 {
+      display: none;
+    }
 
-  .spekers__images1m {
-    display: block;
-    padding: 0 30px;
-  }
+    .spekers__images1m {
+      display: none;
+    }
 
-  .slider {
-    display: flex;
-    width: 66px;
-    height: 10px;
-    padding: 23px 127px 44px;
-  }
+    .slider {
+      display: flex;
+      width: 66px;
+      height: 20px;
+      padding: 23px 478px 44px;
+    }
 
-  .slider__circle {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-  }
+    .slider__circle {
+      width: 20px;
+      height: 15px;
+      border-radius: 50%;
+    }
 
-  .slider__circle_color_blue {
-    margin-right: 18px;
-    background: #405dbb;
-  }
+    .slider__circle_color_blue {
+      margin-right: 18px;
+      background: #405dbb;
+    }
 
-  .slider__circle_color_grey {
-    margin-right: 18px;
-    background: #c4c4c4;
-  }
+    .slider__circle_color_grey {
+      margin-right: 18px;
+      background: #c4c4c4;
+    }
 
-  .slider__circle_color_grey2 {
-    background: #c4c4c4;
-  }
+    .slider__circle_color_grey2 {
+      background: #c4c4c4;
+    }
 
-/* Адрес, телефон */
 
-  .footer {
-    width: 320px;
-    height: 92px;
-  }
+    /* Местоположение,Адрес,Телефоны */
 
-  .mesto {
-    margin: 0;
-    font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
-    padding-top: 16px;
-  }
+    .footer {
+      margin: 0;
+      width: 1024px;
+      height: 200px;
+    }
 
-  .location {
-    display: none;
-  }
+    .mesto {
+      margin: 0;
+      font: 900 17px/21px 'Roboto', arial, helvetica, sans-serif;
+      padding-top: 43px;
+    }
 
-  .location2 {
-    display: block;
-    margin: 0;
-    padding: 11px 2px 0 31px;
-  }
+    .location {
+      margin: 0;
+      width: 22px;
+      height: 15px;
+      padding: 43px 7px 35px 50px;
+    }
 
-  .phone {
-    margin: 0;
-    padding: 16px 0 0 61px;
-    font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
-  }
+    .location2 {
+      display: none;
+    }
 
-  .uphone {
-    margin: 0;
-    padding-bottom: 3px;
-  }
+    .phone {
+      margin: 0;
+      padding: 43px 0 0 420px;
+      font: 900 17px/20px 'Roboto', arial, helvetica, sans-serif;
 
-  .icons {
-    padding-top: 15px;
-  }
+    }
 
-  .whatsappicon {
-    display: none;
-  }
+    .uphone {
+      margin: 0;
+      padding-bottom: 8px;
+    }
 
-  .whatsappicon2 {
-    display: block;
-    margin: 0;
-    width: 20px;
-    height: 20px;
-    padding: 0 5px 0 7px;
-  }
+    .lphone {
+      margin: 0;
+    }
 
-  .telegramicon {
-    display: none;
-  }
+    .icons {
+      display: flex;
+      margin: 0;
+      padding-top: 43px;
+    }
 
-  .telegramicon2 {
-    display: block;
-    width: 20px;
-    height: 17px;
-  }
+    .whatsappicon {
+      margin: 0;
+      padding: 0 13px 0 23px;
+    }
+
+    .whatsappicon2 {
+      display: none;
+    }
+
+    .telegramicon2 {
+      display: none;
+    }
+
+    .telegramicon {
+      width: 52px;
+      height: 43px;
+      margin: 0;
+    }
+
+    .hamburger-menu {
+      display: none;
+    }
 }
+
+/* Медиа запрос 768px */
 
 @media (max-width: 768px) {
 
@@ -620,20 +555,16 @@
 
   .menu {
       padding: 37px 10px 0 150px;
-
     }
 
     .menu__item {
-
       margin: 0 9px;
       font: 800 16px/19px 'Roboto', arial, helvetica, sans-serif;
-
     }
 
     .main__title {
       margin: 0;
       font: 900 35px/42px 'Roboto', arial, helvetica, sans-serif;
-      color: #e1e6e9;
       margin-bottom: 11px;
       padding: 70px 65px 0 347px;
     }
@@ -648,13 +579,11 @@
       margin: 0;
       padding: 0 0 39px 494px;
       font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
-
     }
 
     .main__button {
       margin: 0 80px 0 474px;
       font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
-
     }
 
 
@@ -666,12 +595,12 @@
     }
 
     .middle__title {
-      padding: 15px 112px 0;
+      padding: 35px 112px 0;
       font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .middle__price {
-      padding: 10px 16px 3px 0;
+      padding: 0 16px 3px 0;
       font: 900 27px/32px 'Roboto', arial, helvetica, sans-serif;
       text-align: center;
     }
@@ -699,7 +628,7 @@
 
     .participant__text {
       margin: 0;
-      padding: 40px 0 0 0;
+      padding: 70px 0 0 0;
     }
 
     .participant__text_title {
@@ -727,7 +656,7 @@
     }
 
     .participant__button {
-      margin: 70px 20px 0 0;
+      margin: 90px 20px 0 0;
       padding: 0;
       width: 180px;
       height: 50px;
@@ -743,22 +672,57 @@
 
     .speakers__title {
       margin: 0;
-      padding: 59px 156px 50px;
+      padding: 59px 156px 30px;
       font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .speakers__images1 {
       display: flex;
-      padding: 0 0 65px 100px;
+      width: 580px;
+      padding: 0 0 25px 90px;
+    }
+
+    .spkr3 {
+      display: none;
+    }
+
+    .spkr4 {
+      display: none;
     }
 
     .speakers__images2 {
       display: none;
     }
 
-
     .spekers__images1m {
       display: none;
+    }
+
+    .slider {
+      display: flex;
+      width: 66px;
+      height: 20px;
+      padding: 0 351px 0;
+    }
+
+    .slider__circle {
+      width: 20px;
+      height: 15px;
+      border-radius: 50%;
+    }
+
+    .slider__circle_color_blue {
+      margin-right: 18px;
+      background: #405dbb;
+    }
+
+    .slider__circle_color_grey {
+      margin-right: 18px;
+      background: #c4c4c4;
+    }
+
+    .slider__circle_color_grey2 {
+      background: #c4c4c4;
     }
 
     /* Местоположение,Адрес,Телефоны */
@@ -772,14 +736,14 @@
     .mesto {
       margin: 0;
       font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-      padding-top: 20px;
+      padding-top: 40px;
     }
 
     .location {
       margin: 0;
       width: 22px;
       height: 15px;
-      padding: 20px 7px 35px 50px;
+      padding: 40px 7px 35px 50px;
     }
 
     .location2 {
@@ -788,7 +752,7 @@
 
     .phone {
       margin: 0;
-      padding: 20px 0 0 250px;
+      padding: 40px 0 0 250px;
       font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
 
     }
@@ -805,7 +769,7 @@
     .icons {
       display: flex;
       margin: 0;
-      padding-top: 15px;
+      padding-top: 35px;
     }
 
     .whatsappicon {
@@ -830,4 +794,664 @@
     .hamburger-menu {
       display: none;
     }
+}
+
+/* Медиа запрос для 414 */
+
+@media (max-width: 414px) {
+
+ .wrapper {
+   width: 100%;
+   max-width: 414px;
+ }
+
+ .main {
+   margin: 0;
+   height: 334px;
+   width: 414px;
+ }
+
+ .menu {
+   display: none;
+ }
+
+ .hamburger-menu {
+   display: block;
+ }
+
+ #menu__toggle {
+   opacity: 0;
+ }
+
+ /* стилизуем кнопку */
+
+ .menu__btn {
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 40px;
+   right: 23px;
+   width: 22px;
+   height: 15px;
+   cursor: pointer;
+   z-index: 1;
+ }
+
+/* добавляем "гамбургер" */
+
+ .menu__btn > span,
+ .menu__btn > span::before,
+ .menu__btn > span::after {
+   display: block;
+   position: absolute;
+   width: 100%;
+   height: 3px;
+   background-color: #fff;
+ }
+
+ .menu__btn > span::before {
+   content: '';
+   top: -8px;
+ }
+
+ .menu__btn > span::after {
+   content: '';
+   top: 7px;
+ }
+
+ .menu__box {
+   display: block;
+   position: fixed;
+   visibility: hidden;
+   top: 0;
+   right: -100%;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 150px 0;
+   background-color: #405DBB;
+ }
+
+ .menu__item {
+   margin: 0;
+   position: relative;
+   padding: 24px;
+   height: 36px;
+   width: max-content;
+   justify-content: center;
+   display: block;
+   font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ #menu__toggle:checked ~ .menu__btn > span {
+   transform: rotate(45deg);
+ }
+
+ #menu__toggle:checked ~ .menu__btn > span::before {
+   top: 0;
+   transform: rotate(0);
+ }
+
+ #menu__toggle:checked ~ .menu__btn > span::after {
+   top: 0;
+   transform: rotate(90deg);
+ }
+
+ #menu__toggle:checked ~ .menu__box {
+   visibility: visible;
+   right: 0;
+ }
+
+ .main__title {
+   margin: 0;
+   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
+   text-align: center;
+   padding: 43px 28px 0;
+ }
+
+ .main__subtitle {
+   margin: 0;
+   padding: 5px 54px 0;
+   font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+   text-align: center;
+ }
+
+ .main__subtitle-2 {
+   margin: 0;
+   padding: 0 54px;
+   font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+   margin-bottom: 108px;
+   text-align: center;
+ }
+
+ .main__button {
+   margin: 0 75px;
+   font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+   padding: 14px 104px;
+ }
+
+ /* Подать заявку */
+
+ .middle {
+   width: 414px;
+   height: 295px;
+ }
+
+ .middle__title {
+   margin: 0;
+   padding: 22px 40px 0 35px;
+   margin-bottom: 7px;
+   font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
+ }
+
+ .middle__price {
+   margin: 0;
+   padding: 0;
+   margin: 0 98px 19px;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+   text-align: center;
+ }
+
+ .middle__button {
+   margin: 0;
+   margin: 0 75px 28px;
+   justify-content: center;
+   padding: 11px 96px;
+   width: 260px;
+   height: 45px;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+ }
+
+ .middle__book {
+   margin: 0 130px;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+ }
+
+ /* Участник, фото */
+
+ .participant {
+   margin: 0;
+   width: 414px;
+   height: 442px;
+   display: block;
+ }
+
+ .participant__text {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+
+ .participant__text_title {
+   max-width: 100%;
+   margin: 0;
+   padding: 37px 84px 4px;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+ }
+
+ .participant__text_subtitle {
+   margin: 0;
+   padding: 0 52px 21px;
+   font: 900 10px/12px 'Roboto', arial, helvetica, sans-serif;
+ }
+
+ .participant__image {
+   display: none;
+ }
+
+ .participant__image2 {
+   display: block;
+   margin: 0 75px 28px;
+   max-width: 260px;
+   max-height: 222px;
+ }
+
+ .participant__button {
+   margin: 0 80px 0;
+   padding: 0;
+   width: 260px;
+   height: 45px;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+ }
+
+/* Спикеры */
+
+ .speakers {
+   width: 414px;
+   height: 471px;
+ }
+
+ .speakers__title {
+   padding: 33px 45px 28px;
+   font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
+   text-align: center;
+ }
+
+ .speakers__images1, .speakers__images2 {
+   display: none;
+ }
+
+ .spekers__images1m {
+   display: block;
+   padding: 0 75px;
+ }
+
+ .slider {
+   display: flex;
+   width: 66px;
+   height: 10px;
+   padding: 23px 168px 44px;
+ }
+
+ .slider__circle {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+ }
+
+ .slider__circle_color_blue {
+   margin-right: 18px;
+   background: #405dbb;
+ }
+
+ .slider__circle_color_grey {
+   margin-right: 18px;
+   background: #c4c4c4;
+ }
+
+ .slider__circle_color_grey2 {
+   background: #c4c4c4;
+ }
+
+/* Адрес, телефон */
+
+ .footer {
+   width: 414px;
+   height: 92px;
+ }
+
+ .mesto {
+   margin: 0;
+   font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
+   padding-top: 16px;
+ }
+
+ .location {
+   display: none;
+ }
+
+ .location2 {
+   display: block;
+   margin: 0;
+   padding: 11px 2px 0 31px;
+ }
+
+ .phone {
+   margin: 0;
+   padding: 16px 0 0 130px;
+   font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
+ }
+
+ .uphone {
+   margin: 0;
+   padding-bottom: 3px;
+ }
+
+ .icons {
+   padding-top: 15px;
+ }
+
+ .whatsappicon {
+   display: none;
+ }
+
+ .whatsappicon2 {
+   display: block;
+   margin: 0;
+   width: 20px;
+   height: 20px;
+   padding: 0 7px 0 9px;
+ }
+
+ .telegramicon {
+   display: none;
+ }
+
+ .telegramicon2 {
+   display: block;
+   width: 20px;
+   height: 17px;
+ }
+}
+
+  /* Медиа запрос для 320 */
+
+ @media (max-width: 320px) {
+
+   .wrapper {
+     width: 100%;
+     max-width: 320px;
+   }
+
+   .main {
+     margin: 0;
+     height: 334px;
+     width: 320px;
+   }
+
+   .menu {
+     display: none;
+   }
+
+   .hamburger-menu {
+     display: block;
+   }
+
+   #menu__toggle {
+     opacity: 0;
+   }
+
+   /* стилизуем кнопку */
+
+   .menu__btn {
+     display: flex;
+     align-items: center;
+     position: absolute;
+     top: 40px;
+     right: 23px;
+     width: 22px;
+     height: 15px;
+     cursor: pointer;
+     z-index: 1;
+   }
+
+ /* добавляем "гамбургер" */
+
+   .menu__btn > span,
+   .menu__btn > span::before,
+   .menu__btn > span::after {
+     display: block;
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     background-color: #fff;
+   }
+
+   .menu__btn > span::before {
+     content: '';
+     top: -8px;
+   }
+
+   .menu__btn > span::after {
+     content: '';
+     top: 7px;
+   }
+
+   .menu__box {
+     display: block;
+     position: fixed;
+     visibility: hidden;
+     top: 0;
+     right: -100%;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 150px 0;
+     background-color: #405DBB;
+   }
+
+   .menu__item {
+     margin: 0;
+     position: relative;
+     padding: 24px;
+     height: 36px;
+     width: max-content;
+     justify-content: center;
+     display: block;
+     font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
+     color: #fff;
+     text-decoration: none;
+   }
+
+   #menu__toggle:checked ~ .menu__btn > span {
+     transform: rotate(45deg);
+   }
+
+   #menu__toggle:checked ~ .menu__btn > span::before {
+     top: 0;
+     transform: rotate(0);
+   }
+
+   #menu__toggle:checked ~ .menu__btn > span::after {
+     top: 0;
+     transform: rotate(90deg);
+   }
+
+   #menu__toggle:checked ~ .menu__box {
+     visibility: visible;
+     right: 0;
+   }
+
+   .main__title {
+     margin: 0;
+     font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
+     text-align: center;
+     padding: 43px 28px 0;
+   }
+
+   .main__subtitle {
+     margin: 0;
+     padding: 5px 54px 0;
+     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+     text-align: center;
+   }
+
+   .main__subtitle-2 {
+     margin: 0;
+     padding: 0 54px;
+     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+     margin-bottom: 108px;
+     text-align: center;
+   }
+
+   .main__button {
+     margin: 0 30px;
+     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+     padding: 14px 104px;
+   }
+
+   /* Подать заявку */
+
+   .middle {
+     width: 320px;
+     height: 295px;
+   }
+
+   .middle__title {
+     margin: 0;
+     padding: 22px 40px 0 35px;
+     margin-bottom: 7px;
+     font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
+   }
+
+   .middle__price {
+     margin: 0;
+     padding: 0;
+     margin: 0 98px 19px;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+     text-align: center;
+   }
+
+   .middle__button {
+     margin: 0;
+     margin: 0 30px 28px;
+     justify-content: center;
+     padding: 11px 96px;
+     width: 260px;
+     height: 45px;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+   }
+
+   .middle__book {
+     margin: 0 87px;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+   }
+
+   /* Участник, фото */
+
+   .participant {
+     margin: 0;
+     width: 320px;
+     height: 442px;
+     display: block;
+   }
+
+   .participant__text {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+   }
+
+   .participant__text_title {
+     max-width: 100%;
+     margin: 0;
+     padding: 37px 84px 4px;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+   }
+
+   .participant__text_subtitle {
+     margin: 0;
+     padding: 0 52px 21px;
+     font: 900 10px/12px 'Roboto', arial, helvetica, sans-serif;
+   }
+
+   .participant__image {
+     display: none;
+   }
+
+   .participant__image2 {
+     display: block;
+     margin: 0 30px 28px;
+     max-width: 260px;
+     max-height: 222px;
+   }
+
+   .participant__button {
+     margin: 0 30px 0;
+     padding: 0;
+     width: 260px;
+     height: 45px;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+   }
+
+ /* Спикеры */
+
+   .speakers {
+     width: 320px;
+     height: 471px;
+   }
+
+   .speakers__title {
+     padding: 33px 60px 28px;
+     font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
+     text-align: center;
+   }
+
+   .speakers__images1, .speakers__images2 {
+     display: none;
+   }
+
+   .spekers__images1m {
+     display: block;
+     padding: 0 30px;
+   }
+
+   .slider {
+     display: flex;
+     width: 66px;
+     height: 10px;
+     padding: 23px 127px 44px;
+   }
+
+   .slider__circle {
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+   }
+
+   .slider__circle_color_blue {
+     margin-right: 18px;
+     background: #405dbb;
+   }
+
+   .slider__circle_color_grey {
+     margin-right: 18px;
+     background: #c4c4c4;
+   }
+
+   .slider__circle_color_grey2 {
+     background: #c4c4c4;
+   }
+
+ /* Адрес, телефон */
+
+   .footer {
+     width: 320px;
+     height: 92px;
+   }
+
+   .mesto {
+     margin: 0;
+     font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
+     padding-top: 16px;
+   }
+
+   .location {
+     display: none;
+   }
+
+   .location2 {
+     display: block;
+     margin: 0;
+     padding: 11px 2px 0 31px;
+   }
+
+   .phone {
+     margin: 0;
+     padding: 16px 0 0 61px;
+     font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
+   }
+
+   .uphone {
+     margin: 0;
+     padding-bottom: 3px;
+   }
+
+   .icons {
+     padding-top: 15px;
+   }
+
+   .whatsappicon {
+     display: none;
+   }
+
+   .whatsappicon2 {
+     display: block;
+     margin: 0;
+     width: 20px;
+     height: 20px;
+     padding: 0 5px 0 7px;
+   }
+
+   .telegramicon {
+     display: none;
+   }
+
+   .telegramicon2 {
+     display: block;
+     width: 20px;
+     height: 17px;
+   }
 }
