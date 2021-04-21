@@ -32,7 +32,7 @@ body {
 
 .main__title {
   margin: 0;
-  font: 900 40px/47px 'Roboto', arial, helvetica, sans-serif;
+  font: 900 40px/47px 'robotoregular', arial, helvetica, sans-serif;
   color: #e1e6e9;
   margin-bottom: 11px;
   padding: 132px 130px 0 959px;
