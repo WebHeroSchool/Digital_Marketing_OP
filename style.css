@@ -24,7 +24,7 @@ body {
 }
 
 .menu__item {
-  font: 800 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  font: 800 18px/21px 'robotoregular', arial, helvetica, sans-serif;
   color: #fff;
   margin: 0 29px;
   text-decoration: none;
