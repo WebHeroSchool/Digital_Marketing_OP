@@ -2,28 +2,28 @@
 
 @font-face {
     font-family: 'robotoblack';
-    src: url('roboto-black-webfont.woff') format('woff');
+    src: url('fonts/roboto-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'robotobold';
-    src: url('roboto-bold-webfont.woff') format('woff');
+    src: url('fonts/roboto-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'robotomedium';
-    src: url('roboto-medium-webfont.woff') format('woff');
+    src: url('fonts/roboto-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotoregular';
-    src: url('roboto-regular-webfont.woff') format('woff');
+    font-family: 'Roboto';
+    src: url('fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

@@ -24,7 +24,7 @@ body {
 }
 
 .menu__item {
-  font: 800 18px/21px 'robotobold', arial, helvetica, sans-serif;
+  font: 900 18px/21px 'robotobold', arial, helvetica, sans-serif;
   color: #fff;
   margin: 0 29px;
   text-decoration: none;
@@ -41,7 +41,7 @@ body {
 .main__subtitle {
   margin: 0;
   padding: 0 130px 0 1027px;
-  font: 900 20px/23px 'robotobold', arial, helvetica, sans-serif;
+  font: 800 20px/23px 'robotoblack', arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
 
