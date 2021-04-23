@@ -24,7 +24,7 @@ body {
 }
 
 .menu__item {
-  font: 900 18px/21px "roboto_black", arial, helvetica, sans-serif;
+  font: 700 18px/21px "roboto_black", arial, helvetica, sans-serif;
   color: #fff;
   margin: 0 26px;
   text-decoration: none;
@@ -41,7 +41,7 @@ body {
 .main__subtitle {
   margin: 0;
   padding: 0 130px 0 1027px;
-  font: 500 20px/23px "roboto_black", arial, helvetica, sans-serif;
+  font: 450 20px/23px "roboto_black", arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
 
@@ -100,7 +100,7 @@ body {
 .middle__book {
   position: relative;
   margin: 0 648px 12px;
-  font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 20px/23px "roboto_black", arial, helvetica, sans-serif;
   color: #585858;
   text-decoration: none;
   transition: color .2s linear;
@@ -146,13 +146,13 @@ body {
 }
 
 .participant__text_title {
-  font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
+  font: 900 30px/35px "roboto_black", arial, helvetica, sans-serif;
   margin-bottom: 20px;
 }
 
 .participant__text_subtitle {
   margin: 0;
-  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  font: 900 20px/23px "roboto_black", arial, helvetica, sans-serif;
 }
 
 .participant__button {
@@ -160,7 +160,7 @@ body {
   width: 200px;
   height: 55px;
   margin: 136px 131px 133px 0;
-  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  font: 900 20px/23px "roboto_black", arial, helvetica, sans-serif;
   color: #000;
   background: #ffda45;
   box-shadow: 5px 5px 20px;
