@@ -24,15 +24,15 @@ body {
 }
 
 .menu__item {
-  font: 400 18px/21px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 18px/21px "roboto_black", arial, helvetica, sans-serif;
   color: #fff;
-  margin: 0 29px;
+  margin: 0 26px;
   text-decoration: none;
 }
 
 .main__title {
   margin: 0;
-  font: 40px/47px 'roboto_black', arial, helvetica, sans-serif;
+  font: 40px/47px "roboto_black", arial, helvetica, sans-serif;
   color: #e1e6e9;
   margin-bottom: 11px;
   padding: 132px 130px 0 959px;
@@ -41,21 +41,21 @@ body {
 .main__subtitle {
   margin: 0;
   padding: 0 130px 0 1027px;
-  font: 500 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 500 20px/23px "roboto_black", arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
 
 .main__subtitle-2 {
   margin: 0;
   padding: 0 130px 39px 1107px;
-  font: 400 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 400 20px/23px "roboto_black", arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
 
 .main__button {
   margin: 2px 130px 0 1110px;
   display: inline-block;
-  font: 100 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 100 20px/23px "roboto_black", arial, helvetica, sans-serif;
   color: #fff;
   background: #e0036f;
   padding: 16px 66px;
@@ -73,14 +73,14 @@ body {
 .middle__title {
   margin: 0;
   padding: 57px 413px 0 409px;
-  font: 500 30px/35px 'roboto_medium', arial, helvetica, sans-serif;
+  font: 500 30px/35px "roboto_medium", arial, helvetica, sans-serif;
   text-align: center;
   color: #585858;
 }
 
 .middle__price {
   padding: 10px 14px 2px 0;
-  font: 900 30px/35px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 30px/35px "roboto_black", arial, helvetica, sans-serif;
   color: #263b83;
   text-align: center;
 }
@@ -90,7 +90,7 @@ body {
   justify-content: center;
   width: 200px;
   height: 55px;
-  font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 20px/23px "roboto_black", arial, helvetica, sans-serif;
   color: #000;
   background: #ffda45;
   box-shadow: 5px 5px 20px;
