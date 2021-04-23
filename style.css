@@ -32,7 +32,7 @@ body {
 
 .main__title {
   margin: 0;
-  font: 900 40px/47px 'robotobold', arial, helvetica, sans-serif;
+  font: 900 40px/47px 'robotoblack', arial, helvetica, sans-serif;
   color: #e1e6e9;
   margin-bottom: 11px;
   padding: 132px 130px 0 959px;
@@ -48,14 +48,14 @@ body {
 .main__subtitle-2 {
   margin: 0;
   padding: 0 130px 39px 1107px;
-  font: 900 20px/23px 'robotobold', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'robotoblack', arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
 
 .main__button {
   margin: 2px 130px 0 1110px;
   display: inline-block;
-  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'robotoblack', arial, helvetica, sans-serif;
   color: #fff;
   background: #e0036f;
   padding: 16px 66px;
