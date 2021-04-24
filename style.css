@@ -24,15 +24,15 @@ body {
 }
 
 .menu__item {
-  font: 900 18px/21px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  margin: 0 26px;
+  margin: 0 29px;
   text-decoration: none;
 }
 
 .main__title {
   margin: 0;
-  font: 900 40px/47px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 40px/47px 'Roboto', arial, helvetica, sans-serif;
   color: #e1e6e9;
   margin-bottom: 11px;
   padding: 132px 130px 0 959px;
@@ -41,21 +41,21 @@ body {
 .main__subtitle {
   margin: 0;
   padding: 0 130px 0 1027px;
-  font: 500 20px/23px 'roboto_medium', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
 
 .main__subtitle-2 {
   margin: 0;
   padding: 0 130px 39px 1107px;
-  font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
 
 .main__button {
   margin: 2px 130px 0 1110px;
   display: inline-block;
-  font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   background: #e0036f;
   padding: 16px 66px;
@@ -73,14 +73,14 @@ body {
 .middle__title {
   margin: 0;
   padding: 57px 413px 0 409px;
-  font: 500 30px/35px 'roboto_medium', arial, helvetica, sans-serif;
+  font: 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
   text-align: center;
   color: #585858;
 }
 
 .middle__price {
   padding: 10px 14px 2px 0;
-  font: 900 30px/35px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
   color: #263b83;
   text-align: center;
 }
@@ -90,7 +90,7 @@ body {
   justify-content: center;
   width: 200px;
   height: 55px;
-  font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   background: #ffda45;
   box-shadow: 5px 5px 20px;
@@ -100,7 +100,7 @@ body {
 .middle__book {
   position: relative;
   margin: 0 648px 12px;
-  font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #585858;
   text-decoration: none;
   transition: color .2s linear;
@@ -146,13 +146,13 @@ body {
 }
 
 .participant__text_title {
-  font: 900 30px/35px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
   margin-bottom: 20px;
 }
 
 .participant__text_subtitle {
   margin: 0;
-  font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .participant__button {
@@ -160,7 +160,7 @@ body {
   width: 200px;
   height: 55px;
   margin: 136px 131px 133px 0;
-  font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   background: #ffda45;
   box-shadow: 5px 5px 20px;
@@ -179,7 +179,7 @@ body {
 .speakers__title {
   margin: 0;
   padding: 89px 494px 78px;
-  font: 500 30px/35px 'roboto_medium', arial, helvetica, sans-serif;
+  font: 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
   color: #585858;
   text-align: center;
 }
@@ -218,7 +218,7 @@ body {
 
 .mesto {
   margin: 0;
-  font: 900 18px/21px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
   padding-top: 50px;
   color: #e1e6e9;
 }
@@ -238,7 +238,7 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 49px 1px 0 707px;
-  font: 900 18px/21px 'roboto_black', arial, helvetica, sans-serif;
+  font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #e1e6e9;
 }
 
@@ -304,12 +304,12 @@ body {
 
   .menu__item {
       margin: 0 9px;
-      font: 800 16px/19px 'roboto_black', arial, helvetica, sans-serif;
+      font: 800 16px/19px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .main__title {
       margin: 0;
-      font: 900 35px/42px 'roboto_black', arial, helvetica, sans-serif;
+      font: 900 35px/42px 'Roboto', arial, helvetica, sans-serif;
       margin-bottom: 11px;
       padding: 100px 65px 0 600px;
     }
@@ -317,18 +317,18 @@ body {
     .main__subtitle {
       margin: 0;
       padding: 0 60px 0 680px;
-      font: 900 16px/19px 'roboto_black', arial, helvetica, sans-serif;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .main__subtitle-2 {
       margin: 0;
       padding: 0 0 39px 741px;
-      font: 900 16px/19px 'roboto_black', arial, helvetica, sans-serif;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .main__button {
       margin: 0 80px 0 723px;
-      font: 900 16px/19px 'roboto_black', arial, helvetica, sans-serif;
+      font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
     }
 
     /* Купить, Забронировать  1024px*/
@@ -340,12 +340,12 @@ body {
 
     .middle__title {
       padding: 35px 190px 0;
-      font: 500 27px/32px 'roboto_medium', arial, helvetica, sans-serif;
+      font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .middle__price {
       padding: 0 8px 0 5px;
-      font: 900 27px/32px 'roboto_black', arial, helvetica, sans-serif;
+      font: 900 27px/32px 'Roboto', arial, helvetica, sans-serif;
       text-align: center;
       margin-bottom: 17px;
     }
@@ -354,7 +354,7 @@ body {
       margin: 0 415px 15px;
       width: 200px;
       height: 55px;
-      font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+      font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .middle__book {
@@ -378,13 +378,13 @@ body {
       max-width: 100%;
       margin: 0;
       padding: 17px 14px 4px;
-      font: 900 24px/29px 'roboto_black', arial, helvetica, sans-serif;
+      font: 900 24px/29px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .participant__text_subtitle {
       margin: 0;
       padding: 0 0 0 14px;
-      font: 500 16px/19px 'roboto_medium', arial, helvetica, sans-serif;
+      font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .participant__image {
@@ -415,7 +415,7 @@ body {
     .speakers__title {
       margin: 0;
       padding: 59px 270px 50px;
-      font: 500 27px/32px 'roboto_medium', arial, helvetica, sans-serif;
+      font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .speakers__images1 {
@@ -587,7 +587,7 @@ body {
 
   .middle__title {
     padding: 35px 112px 0;
-    font: 500 27px/32px 'roboto_medium', arial, helvetica, sans-serif;
+    font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .middle__price {
@@ -600,13 +600,13 @@ body {
     margin: 0 274px 15px;
     width: 200px;
     height: 55px;
-    font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .middle__book {
     position: relative;
     margin: 0 308px 13px;
-    font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
     /* Участник, фото 768px*/
@@ -626,13 +626,13 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 17px 24px 4px;
-    font: 900 18px/21px 'roboto_black', arial, helvetica, sans-serif;
+    font: 900 18px/21px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .participant__text_subtitle {
     margin: 0;
     padding: 0 0 0 24px;
-    font: 500 12px/15px 'roboto_medium', arial, helvetica, sans-serif;
+    font: 500 12px/15px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .participant__image {
@@ -664,7 +664,7 @@ body {
   .speakers__title {
     margin: 0;
     padding: 59px 156px 30px;
-    font: 500 27px/32px 'roboto_medium', arial, helvetica, sans-serif;
+    font: 500 27px/32px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .speakers__images1 {
@@ -744,7 +744,7 @@ body {
   .phone {
     margin: 0;
     padding: 40px 0 0 250px;
-    font: 900 15px/18px 'roboto_black', arial, helvetica, sans-serif;
+    font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .uphone {
@@ -806,7 +806,7 @@ body {
 
  .main__title {
    margin: 0;
-   font: 900 30px/35px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
    text-align: center;
    padding: 43px 28px 0;
  }
@@ -814,21 +814,21 @@ body {
  .main__subtitle {
    margin: 0;
    padding: 5px 54px 0;
-   font: 900 15px/18px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
    text-align: center;
  }
 
  .main__subtitle-2 {
    margin: 0;
    padding: 0 54px;
-   font: 900 15px/18px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
    margin-bottom: 108px;
    text-align: center;
  }
 
  .main__button {
    margin: 0 75px;
-   font: 900 15px/18px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
    padding: 14px 104px;
  }
 
@@ -843,7 +843,7 @@ body {
    margin: 0;
    padding: 22px 40px 0 35px;
    margin-bottom: 7px;
-   font: 500 20px/23px 'roboto_medium', arial, helvetica, sans-serif;
+   font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
  }
 
  .middle__price {
@@ -861,12 +861,12 @@ body {
    padding: 11px 96px;
    width: 260px;
    height: 45px;
-   font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
  }
 
  .middle__book {
    margin: 0 130px;
-   font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
    z-index: 100;
  }
 
@@ -889,13 +889,13 @@ body {
    max-width: 100%;
    margin: 0;
    padding: 37px 84px 4px;
-   font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
  }
 
  .participant__text_subtitle {
    margin: 0;
    padding: 0 52px 21px;
-   font: 900 10px/12px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 10px/12px 'Roboto', arial, helvetica, sans-serif;
  }
 
  .participant__image {
@@ -914,7 +914,7 @@ body {
    padding: 0;
    width: 260px;
    height: 45px;
-   font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
  }
 
 /* Спикеры 414px*/
@@ -926,7 +926,7 @@ body {
 
  .speakers__title {
    padding: 33px 45px 28px;
-   font: 500 20px/23px 'roboto_medium', arial, helvetica, sans-serif;
+   font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
    text-align: center;
  }
 
@@ -992,7 +992,7 @@ body {
  .phone {
    margin: 0;
    padding: 16px 0 0 130px;
-   font: 900 8px/9px 'roboto_black', arial, helvetica, sans-serif;
+   font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
  }
 
  .uphone {
@@ -1092,7 +1092,7 @@ body {
    width: max-content;
    justify-content: center;
    display: block;
-   font: 500 30px/35px 'roboto_medium', sans-serif, arial, helvetica;
+   font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
    color: #fff;
    text-decoration: none;
  }
@@ -1145,21 +1145,21 @@ body {
    .main__subtitle {
      margin: 0;
      padding: 5px 54px 0;
-     font: 900 15px/18px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
      text-align: center;
    }
 
    .main__subtitle-2 {
      margin: 0;
      padding: 0 54px;
-     font: 900 15px/18px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
      margin-bottom: 108px;
      text-align: center;
    }
 
    .main__button {
      margin: 0 30px;
-     font: 900 15px/18px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
      padding: 14px 104px;
    }
 
@@ -1174,7 +1174,7 @@ body {
      margin: 0;
      padding: 22px 40px 0 35px;
      margin-bottom: 7px;
-     font: 500 20px/23px 'roboto_medium', arial, helvetica, sans-serif;
+     font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
    }
 
    .middle__price {
@@ -1193,12 +1193,12 @@ body {
      padding: 11px 96px;
      width: 260px;
      height: 45px;
-     font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
    }
 
    .middle__book {
      margin: 0 87px;
-     font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
    }
 
    /* Участник, фото 320px*/
@@ -1220,13 +1220,13 @@ body {
      max-width: 100%;
      margin: 0;
      padding: 37px 84px 4px;
-     font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
    }
 
    .participant__text_subtitle {
      margin: 0;
      padding: 0 52px 21px;
-     font: 900 10px/12px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 10px/12px 'Roboto', arial, helvetica, sans-serif;
    }
 
    .participant__image {
@@ -1245,7 +1245,7 @@ body {
      padding: 0;
      width: 260px;
      height: 45px;
-     font: 900 20px/23px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
    }
 
  /* Спикеры 320px */
@@ -1257,7 +1257,7 @@ body {
 
    .speakers__title {
      padding: 33px 60px 28px;
-     font: 500 20px/23px 'roboto_medium', arial, helvetica, sans-serif;
+     font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
      text-align: center;
    }
 
@@ -1323,7 +1323,7 @@ body {
    .phone {
      margin: 0;
      padding: 16px 0 0 61px;
-     font: 900 8px/9px 'roboto_black', arial, helvetica, sans-serif;
+     font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
    }
 
    .uphone {
@@ -1423,7 +1423,7 @@ body {
      width: max-content;
      justify-content: center;
      display: block;
-     font: 500 30px/35px 'roboto_medium', sans-serif, arial, helvetica;
+     font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
      color: #fff;
      text-decoration: none;
    }
