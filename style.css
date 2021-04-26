@@ -3,7 +3,6 @@ body {
 }
 
 .wrapper {
-  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -19,8 +18,7 @@ body {
 }
 
 .menu {
-  padding: 70px 97px 0 555px;
-
+  padding: 70px 60px 0 555px;
 }
 
 .menu__item {
@@ -28,6 +26,10 @@ body {
   color: #fff;
   margin: 0 29px;
   text-decoration: none;
+}
+
+.menu__item:last-child {
+  margin: 0 46px 0 25px;
 }
 
 .main__title {
@@ -53,7 +55,7 @@ body {
 }
 
 .main__button {
-  margin: 2px 130px 0 1110px;
+  margin: 1px 130px 0 1110px;
   display: inline-block;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
@@ -72,21 +74,21 @@ body {
 
 .middle__title {
   margin: 0;
-  padding: 57px 413px 0 409px;
+  padding: 55px 414px 0 409px;
   font: 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
   text-align: center;
   color: #585858;
 }
 
 .middle__price {
-  padding: 10px 14px 2px 0;
+  padding: 10px 13px 2px 0;
   font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
   color: #263b83;
   text-align: center;
 }
 
 .middle__button {
-  margin: 0 620px 17px;
+  margin: 0 620px 19px;
   justify-content: center;
   width: 200px;
   height: 55px;
@@ -100,7 +102,7 @@ body {
 .middle__book {
   display: block;
   position: relative;
-  margin: 0 648px 12px;
+  margin: 0 646px 12px;
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #585858;
   text-decoration: none;
@@ -199,7 +201,7 @@ body {
   justify-content: space-between;
 }
 
-.spekers__images1m {
+.speakers__images1m {
   display: none;
 }
 
@@ -295,7 +297,7 @@ body {
   }
 
   .main {
-    width: 1024px;
+    max-width: 100%;
     height: 600px;
   }
 
@@ -335,7 +337,7 @@ body {
     /* Купить, Забронировать  1024px*/
 
     .middle {
-      width: 1024px;
+      max-width: 100%;
       height: 320px;
     }
 
@@ -366,7 +368,7 @@ body {
 
     .participant {
       margin: 0;
-      width: 1024px;
+      max-width: 100%;
       height: 270px;
     }
 
@@ -409,7 +411,7 @@ body {
 
     .speakers {
       margin: 0;
-      width: 1024px;
+      max-width: 100%;
       height: 600px;
     }
 
@@ -433,7 +435,7 @@ body {
       display: none;
     }
 
-    .spekers__images1m {
+    .speakers__images1m {
       display: none;
     }
 
@@ -446,7 +448,7 @@ body {
 
     .slider__circle {
       width: 20px;
-      height: 15px;
+      height: 12px;
       border-radius: 50%;
     }
 
@@ -468,7 +470,7 @@ body {
 
     .footer {
       margin: 0;
-      width: 1024px;
+      max-width: 100%;
       height: 200px;
     }
 
@@ -534,55 +536,122 @@ body {
     }
 }
 
+/* Медиа запрос 956px */
+
+@media (max-width: 956px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .main {
+    max-width: 100%;
+  }
+
+  .menu {
+    padding: 50px 0 0 240px;
+  }
+
+  .main__title {
+    padding: 100px 0 0 510px
+  }
+
+  .main__subtitle {
+    padding: 0 0 0 600px;
+  }
+
+  .main__subtitle-2 {
+    padding: 0 0 39px 662px
+  }
+
+  .main__button {
+    margin: 0 127px 0 642px;
+  }
+
+  .middle {
+    max-width: 100%;
+  }
+
+  .middle__title {
+    padding: 35px 170px 0 190px;
+  }
+
+  .middle__button {
+    margin: 0 0 15px 415px;
+  }
+
+  .middle__price {
+    margin: 20px 320px 13px 390px;
+  }
+
+  .middle__book {
+    margin: 0 370px 13px 439px;
+  }
+
+  .participant {
+    max-width: 100%;
+  }
+
+  .participant__button {
+    margin: 120px 70px 0 10px;
+  }
+
+  .speakers {
+    max-width: 100%;
+  }
+
+  .speakers__images1 {
+    padding: 0 0 25px 45px;
+  }
+
+  .footer {
+    max-width: 100%;
+  }
+
+
 /* Медиа запрос 768px */
 
 @media (max-width: 768px) {
   .wrapper {
-    max-width: 768px;
+    max-width: 100%;
   }
 
   .main {
-    width: 768px;
+    max-width: 100%;
     height: 447px;
-  }
-
-  .menu {
-    padding: 37px 10px 0 150px;
-  }
-
-  .menu__item {
-    margin: 0 9px;
-    font: 800 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__title {
     margin: 0;
+    text-align: center;
     font: 900 35px/42px 'Roboto', arial, helvetica, sans-serif;
     margin-bottom: 11px;
-    padding: 70px 65px 0 347px;
+    padding: 0;
+    padding-top: 100px;
   }
 
   .main__subtitle {
     margin: 0;
-    padding: 0 60px 0 432px;
+    padding: 0;
+    text-align: center;
     font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__subtitle-2 {
     margin: 0;
-    padding: 0 0 39px 494px;
+    padding: 0;
+    text-align: center;
     font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__button {
-    margin: 0 80px 0 474px;
+    margin: 50px 290px 0 290px;
     font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
     /* Купить, Забронировать 768px*/
 
   .middle {
-    width: 768px;
+    max-width: 100%;
     height: 312px;
   }
 
@@ -592,9 +661,10 @@ body {
   }
 
   .middle__price {
-    padding: 0 16px 3px 0;
+    padding: 20px 16px 3px 0;
     font: 900 27px/32px 'Roboto', arial, helvetica, sans-serif;
     text-align: center;
+    margin: 0 100px 13px 100px;
   }
 
   .middle__button {
@@ -614,7 +684,7 @@ body {
 
   .participant {
     margin: 0;
-    width: 768px;
+    max-width: 100%;
     height: 222px;
   }
 
@@ -648,7 +718,7 @@ body {
   }
 
   .participant__button {
-    margin: 90px 20px 0 0;
+    margin: 90px 30px 0 10px;
     padding: 0;
     width: 180px;
     height: 50px;
@@ -658,7 +728,7 @@ body {
 
   .speakers {
     margin: 0;
-    width: 768px;
+    max-width: 100%;
     height: 510px;
   }
 
@@ -686,7 +756,7 @@ body {
     display: none;
   }
 
-  .spekers__images1m {
+  .speakers__images1m {
     display: none;
   }
 
@@ -698,8 +768,8 @@ body {
   }
 
   .slider__circle {
-    width: 20px;
-    height: 15px;
+    width: 10px;
+    height: 12px;
     border-radius: 50%;
   }
 
@@ -717,11 +787,11 @@ body {
     background: #c4c4c4;
   }
 
-    /* Местоположение,Адрес,Телефоны 768px */
+  /* Местоположение,Адрес,Телефоны 768px */
 
   .footer {
     margin: 0;
-    width: 768px;
+    max-width: 100%;
     height: 150px;
   }
 
@@ -782,8 +852,177 @@ body {
     margin: 0;
   }
 
-  .hamburger-menu {
+  .menu {
     display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  /* стилизуем кнопку для гамбургер */
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    align-items: flex-start;
+    top: 48px;
+    right: 39px;
+    width: 23px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 102;
+  }
+
+/* добавляем "гамбургер" */
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+  }
+
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+
+  .menu__btn > span::after {
+    content: '';
+    top: 7px;
+  }
+
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 150px 0;
+    background-color: #405DBB;
+    z-index: 101;
+  }
+
+  .menu__item {
+    margin: 0;
+    position: relative;
+    padding: 24px;
+    height: 36px;
+    width: max-content;
+    justify-content: center;
+    display: block;
+    font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+}
+
+/* Медиа запрос для 540 */
+
+@media (max-width: 540px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .main {
+    max-width: 100%;
+  }
+
+  .main__button {
+    margin: 50px 180px 0;
+  }
+
+  .middle {
+    max-width: 100%;
+  }
+
+  .middle__title {
+    padding: 35px 50px 15px;
+  }
+
+  .middle__price {
+    padding: 0 50px 0;
+  }
+
+  .middle__button {
+    margin: 0 170px 15px;
+  }
+
+  .middle__book {
+    margin: 0 198px 13px;
+  }
+
+  .participant {
+    max-width: 100%;
+  }
+
+  .participant__text_title {
+    padding: 1px 10px 4px;
+    font: 900 13px/16px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .participant__text_subtitle {
+    padding: 0 0 0 10px;
+    font: 500 8px/11px 'Roboto', arial, helvetica, sans-serif
+  }
+
+  .speakers {
+    max-width: 100%
+  }
+
+  .speakers__title {
+    padding: 59px 16px 30px;
+  }
+
+  .spkr2 {
+    display: none;
+  }
+
+  .spkr1 {
+    padding: 0 0 25px 43px;
+  }
+
+  .slider {
+    padding: 0 235px 0;
+  }
+
+  .footer {
+    max-width: 100%;
+  }
+
+  .phone {
+    padding: 40px 0 0 50px;
   }
 }
 
@@ -791,14 +1030,13 @@ body {
 
 @media (max-width: 414px) {
  .wrapper {
-   width: 100%;
-   max-width: 414px;
+   max-width: 100%;
  }
 
  .main {
    margin: 0;
    height: 334px;
-   width: 414px;
+   max-width: 100%;
  }
 
  .menu {
@@ -836,7 +1074,7 @@ body {
  /* Подать заявку 414px */
 
  .middle {
-   width: 414px;
+   max-width: 100%;
    height: 295px;
  }
 
@@ -875,7 +1113,7 @@ body {
 
  .participant {
    margin: 0;
-   width: 414px;
+   max-width: 100%;
    height: 442px;
    display: block;
  }
@@ -921,7 +1159,7 @@ body {
 /* Спикеры 414px*/
 
  .speakers {
-   width: 414px;
+   max-width: 100%;
    height: 471px;
  }
 
@@ -935,7 +1173,7 @@ body {
    display: none;
  }
 
- .spekers__images1m {
+ .speakers__images1m {
    display: block;
    padding: 0 75px;
  }
@@ -970,7 +1208,7 @@ body {
 /* Адрес, телефон 414px */
 
  .footer {
-   width: 414px;
+   max-width: 100%;
    height: 92px;
  }
 
@@ -1040,7 +1278,7 @@ body {
  .menu__btn {
    display: flex;
    align-items: center;
-   position: fixed;
+   position: absolute;
    top: 40px;
    right: 23px;
    width: 22px;
@@ -1118,18 +1356,74 @@ body {
  }
 }
 
-  /* Медиа запрос для 320 */
+
+/* Медиа запрос для 360 */
+
+@media (max-width: 360px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .main {
+    max-width: 360px;
+  }
+
+  .main__button {
+    margin: 0 55px;
+  }
+
+  .middle {
+    max-width: 100%;
+  }
+
+  .middle__button {
+    margin: 0 50px 28px;
+  }
+
+  .middle__book {
+    margin: 0 105px;
+  }
+
+  .participant {
+    max-width: 100%;
+  }
+
+  .participant__button {
+    margin: 0 50px 0;
+  }
+
+  .participant__image2 {
+    margin: 0 50px 28px;
+  }
+
+  .speakers {
+    max-width: 100%
+  }
+
+  .speakers__images1m {
+    padding: 0 50px;
+  }
+
+  .footer {
+    max-width: 100%;
+  }
+
+  .phone {
+    padding: 16px 0 0 100px;
+  }
+}
+
+/* Медиа запрос для 320 */
 
  @media (max-width: 320px) {
    .wrapper {
-     width: 100%;
-     max-width: 320px;
+     max-width: 100%;
    }
 
    .main {
+     max-width: 100%;
      margin: 0;
      height: 334px;
-     width: 320px;
    }
 
    .menu {
@@ -1152,22 +1446,22 @@ body {
 
    .main__subtitle-2 {
      margin: 0;
-     padding: 0 54px;
+     padding: 0 54px 2px;
      font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
      margin-bottom: 108px;
      text-align: center;
    }
 
    .main__button {
-     margin: 0 30px;
+     margin: 0 32px 0 30px;
      font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-     padding: 14px 104px;
+     padding: 14px 104px 13px;
    }
 
    /* Подать заявку 320px*/
 
    .middle {
-     width: 320px;
+     max-width: 100%;
      height: 295px;
    }
 
@@ -1206,7 +1500,7 @@ body {
 
    .participant {
      margin: 0;
-     width: 320px;
+     max-width: 100%;
      height: 442px;
      display: block;
    }
@@ -1252,7 +1546,7 @@ body {
  /* Спикеры 320px */
 
    .speakers {
-     width: 320px;
+     max-width: 100%;
      height: 471px;
    }
 
@@ -1266,7 +1560,7 @@ body {
      display: none;
    }
 
-   .spekers__images1m {
+   .speakers__images1m {
      display: block;
      padding: 0 30px;
    }
@@ -1301,7 +1595,7 @@ body {
  /* Адрес, телефон 320px*/
 
    .footer {
-     width: 320px;
+     max-width: 100%;
      height: 92px;
    }
 
@@ -1371,10 +1665,11 @@ body {
    .menu__btn {
      display: flex;
      align-items: center;
-     position: fixed;
-     top: 40px;
-     right: 23px;
-     width: 22px;
+     position: absolute;
+     align-items: flex-start;
+     top: 38px;
+     right: 29px;
+     width: 23px;
      height: 15px;
      cursor: pointer;
      z-index: 102;
@@ -1447,4 +1742,116 @@ body {
      visibility: visible;
      right: 0;
    }
+}
+
+  /* Медиазапрос для 280*/
+
+@media (max-width: 280px) {
+  .wrapper {
+    max-width: 280px;
+  }
+
+  .main {
+    max-width: 100%;
+  }
+
+  .main__title {
+    text-align: center;
+    font:900 25px/30px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    text-align: center;
+    font:900 12px/15px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle2 {
+    text-align: center;
+    font:900 12px/15px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    margin: 0 12px 0 12px;
+  }
+
+  .middle {
+    max-width: 100%;
+  }
+
+  .middle__title {
+    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    padding: 22px 49px 0 35px
+  }
+
+  .middle__price {
+    font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    margin: 0 65px 29px;
+  }
+
+  .middle__button {
+    margin: 0 20px 28px;
+    width: 240px;
+  }
+
+  .middle__price {
+    font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .middle__book {
+    margin: 0 67px;
+  }
+
+  .participant {
+    max-width: 100%;
+  }
+
+  .participant__text_title {
+    padding: 37px 4px 4px
+  }
+
+  .participant__text_subtitle {
+    padding: 0 2px 21px;
+  }
+
+  .participant__image2 {
+    padding: 0;
+    margin: 0 10px 28px;
+  }
+
+  .participant__button {
+    margin: 20px 20px 0;
+    width: 240px;
+  }
+
+  .slider {
+    padding: 23px 104px 44px;
+  }
+
+  .speakers {
+    max-width: 100%;
+  }
+
+  .speakers__title {
+    padding: 33px 10px 25px;
+  }
+
+  .speakers__images1m {
+    padding: 0 9px;
+  }
+
+  .footer {
+    max-width: 100%;
+  }
+
+  .location2 {
+    padding: 11px 2px 0 15px;
+  }
+
+  .phone {
+    padding: 16px 0 0 51px;
+  }
+
+  .menu__box {
+    max-width: 100%;
+  }
 }
