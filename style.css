@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
 }
 
-  /* Первый экран меню */
+/* Первый экран меню */
 
 .main {
   margin: 0;
@@ -64,7 +64,7 @@ body {
   border: none;
 }
 
-  /* Купить, Забронировать */
+/* Купить, Забронировать */
 
 .middle {
   width: 100%;
@@ -122,7 +122,7 @@ body {
   z-index: 1;
 }
 
-  /* Подать заявку */
+/* Подать заявку */
 
 .participant {
   margin: 0;
@@ -170,7 +170,7 @@ body {
   border: none;
 }
 
-  /* Спикеры, фото */
+/* Спикеры, фото */
 
 .speakers {
   margin: 0;
@@ -233,7 +233,7 @@ body {
   display: none;
 }
 
-  /* Местоположение,Адрес,Телефоны */
+/* Местоположение,Адрес,Телефоны */
 
 .footer {
   margin: 0;
@@ -317,7 +317,7 @@ body {
   display: none;
 }
 
-  /* Медиа запрос 1420 */
+/* Медиа запрос 1420 */
 
 @media (max-width: 1420px) {
   .wrapper {
@@ -337,7 +337,7 @@ body {
   }
 }
 
-  /* Медиа запрос 1406 */
+/* Медиа запрос 1406 */
 
 @media (max-width: 1406px) {
   .wrapper {
@@ -367,7 +367,7 @@ body {
   }
 }
 
-  /* Медиа запрос 1354 */
+/* Медиа запрос 1354 */
 
 @media (max-width: 1354px) {
   .wrapper {
@@ -391,7 +391,7 @@ body {
   }
 }
 
-  /* Медиа запрос 1325 */
+/* Медиа запрос 1325 */
 
 @media (max-width: 1325px) {
   .wrapper {
@@ -435,7 +435,7 @@ body {
   }
 }
 
-  /* медиа запрос 1308 */
+/* медиа запрос 1308 */
 
 @media (max-width: 1308px) {
   .wrapper {
@@ -476,7 +476,7 @@ body {
   }
 }
 
-  /* Медиа запрос 1283px */
+/* Медиа запрос 1283px */
 
 @media (max-width: 1282px) {
   .wrapper {
@@ -520,7 +520,7 @@ body {
   }
 }
 
-  /* Медиа запрос 1202 */
+/* Медиа запрос 1202 */
 
 @media (max-width: 1202px) {
   .wrapper {
@@ -592,7 +592,7 @@ body {
   }
 }
 
-  /* Медиа запрос 1130px */
+/* Медиа запрос 1130px */
 
 @media (max-width: 1130px) {
   .wrapper {
@@ -644,7 +644,7 @@ body {
   }
 }
 
-  /* Медиа запрос 1090px */
+/* Медиа запрос 1090px */
 
 @media (max-width: 1090px) {
   .wrapper {
@@ -716,7 +716,7 @@ body {
   }
 }
 
-  /* Медиа запрос 1024px */
+/* Медиа запрос 1024px */
 
 @media (max-width: 1024px) {
   .wrapper {
@@ -761,7 +761,7 @@ body {
     font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  /* Купить, Забронировать  1024px */
+/* Купить, Забронировать  1024px */
 
   .middle {
     max-width: 100%;
@@ -791,7 +791,7 @@ body {
     margin: 0 439px 13px;
   }
 
-  /* Участник, фото 1024px */
+/* Участник, фото 1024px */
 
   .participant {
     margin: 0;
@@ -834,7 +834,7 @@ body {
     height: 50px;
   }
 
-  /* Спикеры, фото 1024px */
+/* Спикеры, фото 1024px */
 
   .speakers {
     margin: 0;
@@ -897,7 +897,7 @@ body {
     background: #c4c4c4;
   }
 
-  /* Местоположение,Адрес,Телефоны 1024px */
+/* Местоположение,Адрес,Телефоны 1024px */
 
   .footer {
     margin: 0;
@@ -967,7 +967,7 @@ body {
   }
 }
 
-  /* Медиа запрос 980px */
+/* Медиа запрос 980px */
 
 @media (max-width: 980px) {
   .wrapper {
@@ -1019,7 +1019,7 @@ body {
   }
 }
 
-  /* Медиа запрос 956px */
+/* Медиа запрос 956px */
 
 @media (max-width: 956px) {
   .wrapper {
@@ -1091,7 +1091,7 @@ body {
   }
 }
 
-  /* Медиа запрос 928px */
+/* Медиа запрос 928px */
 
 @media (max-width: 928px) {
   .wrapper {
@@ -1151,7 +1151,7 @@ body {
   }
 }
 
-  /* Медиа запрос 888px */
+/* Медиа запрос 888px */
 
 @media (max-width: 888px) {
   .wrapper {
@@ -1219,7 +1219,7 @@ body {
   }
 }
 
-  /* Медиа запрос 768px */
+/* Медиа запрос 768px */
 
 @media (max-width: 768px) {
   .wrapper {
@@ -1259,7 +1259,7 @@ body {
     font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  /* Купить, Забронировать 768px */
+/* Купить, Забронировать 768px */
 
   .middle {
     max-width: 100%;
@@ -1291,7 +1291,7 @@ body {
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  /* Участник, фото 768px */
+/* Участник, фото 768px */
 
   .participant {
     margin: 0;
@@ -1335,7 +1335,7 @@ body {
     height: 50px;
   }
 
-  /* Спикеры, фото 768px */
+/* Спикеры, фото 768px */
 
   .speakers {
     margin: 0;
@@ -1398,7 +1398,7 @@ body {
     background: #c4c4c4;
   }
 
-  /* Местоположение,Адрес,Телефоны 768px */
+/* Местоположение,Адрес,Телефоны 768px */
 
   .footer {
     margin: 0;
@@ -1475,7 +1475,7 @@ body {
     opacity: 0;
   }
 
-  /* стилизуем кнопку для гамбургер */
+/* стилизуем кнопку для гамбургер */
 
   .menu__btn {
     display: flex;
@@ -1489,7 +1489,7 @@ body {
     z-index: 102;
   }
 
-  /* добавляем "гамбургер" */
+/* добавляем "гамбургер" */
 
   .menu__btn > span,
   .menu__btn > span::before,
@@ -1558,7 +1558,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 764 */
+/* Медиа запрос для 764 */
 
 @media (max-width: 764px) {
   .wrapper {
@@ -1589,7 +1589,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 744 */
+/* Медиа запрос для 744 */
 
 @media (max-width: 744px) {
   .wrapper {
@@ -1618,7 +1618,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 717 */
+/* Медиа запрос для 717 */
 
 @media (max-width: 717px) {
   .wrapper {
@@ -1650,7 +1650,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 650 */
+/* Медиа запрос для 650 */
 
 @media (max-width: 650px) {
   .wrapper {
@@ -1702,7 +1702,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 617 */
+/* Медиа запрос для 617 */
 
 @media (max-width: 617px) {
   .wrapper {
@@ -1758,7 +1758,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 540 */
+/* Медиа запрос для 540 */
 
 @media (max-width: 540px) {
   .wrapper {
@@ -1866,7 +1866,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 515 */
+/* Медиа запрос для 515 */
 
 @media (max-width: 515px) {
   .wrapper {
@@ -1931,7 +1931,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 470 */
+/* Медиа запрос для 470 */
 
 @media (max-width: 470px) {
   .wrapper {
@@ -1991,7 +1991,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 433 */
+/* Медиа запрос для 433 */
 
 @media (max-width: 433px) {
   .wrapper {
@@ -2055,7 +2055,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 414 */
+/* Медиа запрос для 414 */
 
 @media (max-width: 414px) {
   .wrapper {
@@ -2100,7 +2100,7 @@ body {
     padding: 14px 104px;
   }
 
-  /* Подать заявку 414px */
+/* Подать заявку 414px */
 
   .middle {
     max-width: 100%;
@@ -2137,7 +2137,7 @@ body {
     z-index: 100;
   }
 
-  /* Участник, фото 414px */
+/* Участник, фото 414px */
 
   .participant {
     margin: 0;
@@ -2184,7 +2184,7 @@ body {
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  /* Спикеры 414px */
+/* Спикеры 414px */
 
   .speakers {
     max-width: 100%;
@@ -2234,7 +2234,7 @@ body {
     background: #c4c4c4;
   }
 
-  /* Адрес, телефон 414px */
+/* Адрес, телефон 414px */
 
   .footer {
     max-width: 100%;
@@ -2302,7 +2302,7 @@ body {
     opacity: 0;
   }
 
-  /* стилизуем кнопку для гамбургер */
+/* стилизуем кнопку для гамбургер */
 
   .menu__btn {
     display: flex;
@@ -2316,7 +2316,7 @@ body {
     z-index: 102;
   }
 
-  /* добавляем "гамбургер" */
+/* добавляем "гамбургер" */
 
   .menu__btn > span,
   .menu__btn > span::before,
@@ -2385,7 +2385,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 360 */
+/* Медиа запрос для 360 */
 
 @media (max-width: 360px) {
   .wrapper {
@@ -2441,7 +2441,7 @@ body {
   }
 }
 
-  /* Медиа запрос для 320 */
+/* Медиа запрос для 320 */
 
 @media (max-width: 320px) {
   .wrapper {
@@ -2489,7 +2489,7 @@ body {
     padding: 14px 104px 13px;
   }
 
-  /* Подать заявку 320px */
+/* Подать заявку 320px */
 
   .middle {
     max-width: 100%;
@@ -2526,7 +2526,7 @@ body {
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  /* Участник, фото 320px */
+/* Участник, фото 320px */
 
   .participant {
     margin: 0;
@@ -2573,7 +2573,7 @@ body {
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  /* Спикеры 320px */
+/* Спикеры 320px */
 
   .speakers {
     max-width: 100%;
@@ -2623,7 +2623,7 @@ body {
     background: #c4c4c4;
   }
 
-  /* Адрес, телефон 320px */
+/* Адрес, телефон 320px */
 
   .footer {
     max-width: 100%;
@@ -2691,7 +2691,7 @@ body {
     opacity: 0;
   }
 
-  /* стилизуем кнопку для гамбургер */
+/* стилизуем кнопку для гамбургер */
 
   .menu__btn {
     display: flex;
@@ -2705,7 +2705,7 @@ body {
     z-index: 102;
   }
 
-  /* добавляем "гамбургер" */
+/* добавляем "гамбургер" */
 
   .menu__btn > span,
   .menu__btn > span::before,
@@ -2774,7 +2774,7 @@ body {
   }
 }
 
-  /* Медиазапрос для 318 */
+/* Медиазапрос для 318 */
 
 @media (max-width: 318px) {
   .wrapper {
@@ -2798,7 +2798,7 @@ body {
 
   .main__subtitle-2 {
     text-align: center;
-    font:900 12px/15px 'Roboto', arial, helvetica, sans-serif;
+    font: 900 12px/15px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__button {
@@ -2883,7 +2883,7 @@ body {
   }
 }
 
-  /* Медиазапрос для 291 */
+/* Медиазапрос для 291 */
 
 @media (max-width: 291px) {
   .wrapper {
@@ -2923,7 +2923,7 @@ body {
   }
 }
 
-  /* Медиазапрос для 280 */
+/* Медиазапрос для 280 */
 
 @media (max-width: 280px) {
   .wrapper {
