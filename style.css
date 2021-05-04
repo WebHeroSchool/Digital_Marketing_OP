@@ -318,7 +318,7 @@ body {
   display: none;
 }
 
-/*Медиа запрос 1430*/
+/*Медиа запрос 1420*/
 
 @media (max-width: 1420px) {
   .wrapper {
@@ -518,6 +518,7 @@ body {
   .phone {
     padding: 49px 1px 0 600px;
   }
+}
 
 /*Медиа запрос 1202*/
 
