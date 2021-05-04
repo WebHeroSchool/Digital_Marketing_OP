@@ -761,7 +761,7 @@ body {
     font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
-/* Купить, Забронировать  1024px */
+  /* Купить, Забронировать  1024px */
 
   .middle {
     max-width: 100%;
@@ -791,7 +791,7 @@ body {
     margin: 0 439px 13px;
   }
 
-/* Участник, фото 1024px */
+  /* Участник, фото 1024px */
 
   .participant {
     margin: 0;
@@ -834,7 +834,7 @@ body {
     height: 50px;
   }
 
-/* Спикеры, фото 1024px */
+  /* Спикеры, фото 1024px */
 
   .speakers {
     margin: 0;
@@ -897,7 +897,7 @@ body {
     background: #c4c4c4;
   }
 
-/* Местоположение,Адрес,Телефоны 1024px */
+  /* Местоположение,Адрес,Телефоны 1024px */
 
   .footer {
     margin: 0;
@@ -1259,7 +1259,7 @@ body {
     font: 900 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
-/* Купить, Забронировать 768px */
+  /* Купить, Забронировать 768px */
 
   .middle {
     max-width: 100%;
@@ -1335,7 +1335,7 @@ body {
     height: 50px;
   }
 
-/* Спикеры, фото 768px */
+  /* Спикеры, фото 768px */
 
   .speakers {
     margin: 0;
@@ -1398,7 +1398,7 @@ body {
     background: #c4c4c4;
   }
 
-/* Местоположение,Адрес,Телефоны 768px */
+  /* Местоположение,Адрес,Телефоны 768px */
 
   .footer {
     margin: 0;
@@ -1475,7 +1475,7 @@ body {
     opacity: 0;
   }
 
-/* стилизуем кнопку для гамбургер */
+  /* стилизуем кнопку для гамбургер */
 
   .menu__btn {
     display: flex;
@@ -1489,7 +1489,7 @@ body {
     z-index: 102;
   }
 
-/* добавляем "гамбургер" */
+  /* добавляем "гамбургер" */
 
   .menu__btn > span,
   .menu__btn > span::before,
@@ -2100,7 +2100,7 @@ body {
     padding: 14px 104px;
   }
 
-/* Подать заявку 414px */
+  /* Подать заявку 414px */
 
   .middle {
     max-width: 100%;
@@ -2137,7 +2137,7 @@ body {
     z-index: 100;
   }
 
-/* Участник, фото 414px */
+  /* Участник, фото 414px */
 
   .participant {
     margin: 0;
@@ -2184,7 +2184,7 @@ body {
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
-/* Спикеры 414px */
+  /* Спикеры 414px */
 
   .speakers {
     max-width: 100%;
@@ -2234,7 +2234,7 @@ body {
     background: #c4c4c4;
   }
 
-/* Адрес, телефон 414px */
+  /* Адрес, телефон 414px */
 
   .footer {
     max-width: 100%;
@@ -2302,7 +2302,7 @@ body {
     opacity: 0;
   }
 
-/* стилизуем кнопку для гамбургер */
+  /* стилизуем кнопку для гамбургер */
 
   .menu__btn {
     display: flex;
@@ -2316,7 +2316,7 @@ body {
     z-index: 102;
   }
 
-/* добавляем "гамбургер" */
+  /* добавляем "гамбургер" */
 
   .menu__btn > span,
   .menu__btn > span::before,
@@ -2489,7 +2489,7 @@ body {
     padding: 14px 104px 13px;
   }
 
-/* Подать заявку 320px */
+  /* Подать заявку 320px */
 
   .middle {
     max-width: 100%;
@@ -2526,7 +2526,7 @@ body {
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
-/* Участник, фото 320px */
+  /* Участник, фото 320px */
 
   .participant {
     margin: 0;
@@ -2573,7 +2573,7 @@ body {
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   }
 
-/* Спикеры 320px */
+  /* Спикеры 320px */
 
   .speakers {
     max-width: 100%;
@@ -2623,7 +2623,7 @@ body {
     background: #c4c4c4;
   }
 
-/* Адрес, телефон 320px */
+  /* Адрес, телефон 320px */
 
   .footer {
     max-width: 100%;
@@ -2691,7 +2691,7 @@ body {
     opacity: 0;
   }
 
-/* стилизуем кнопку для гамбургер */
+  /* стилизуем кнопку для гамбургер */
 
   .menu__btn {
     display: flex;
@@ -2705,7 +2705,7 @@ body {
     z-index: 102;
   }
 
-/* добавляем "гамбургер" */
+  /* добавляем "гамбургер" */
 
   .menu__btn > span,
   .menu__btn > span::before,
