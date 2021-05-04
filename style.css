@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
 }
 
- /* Первый экран меню */
+/* Первый экран меню */
 
 .main {
   margin: 0;
@@ -106,7 +106,7 @@ body {
   font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
   color: #585858;
   text-decoration: none;
-  transition: color .2s linear;
+  transition: color 0.2s linear;
 }
 
 .middle__book::after {
@@ -1478,7 +1478,6 @@ body {
 
   .menu__btn {
     display: flex;
-    align-items: center;
     position: absolute;
     align-items: flex-start;
     top: 48px;
@@ -1995,7 +1994,7 @@ body {
 
 @media (max-width: 433px) {
   .wrapper {
-   max-width: 100%;
+    max-width: 100%;
   }
 
   .main {
@@ -2115,7 +2114,6 @@ body {
   }
 
   .middle__price {
-    margin: 0;
     padding: 0;
     margin: 0 98px 19px;
     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
@@ -2198,7 +2196,8 @@ body {
     text-align: center;
   }
 
-  .speakers__images1, .speakers__images2 {
+  .speakers__images1,
+  .speakers__images2 {
     display: none;
   }
 
@@ -2212,7 +2211,7 @@ body {
     width: 66px;
     height: 10px;
     padding: 23px 0 44px 168px;
-    }
+  }
 
   .slider__circle {
     width: 10px;
@@ -2365,24 +2364,24 @@ body {
     text-decoration: none;
   }
 
- #menu__toggle:checked ~ .menu__btn > span {
-   transform: rotate(45deg);
- }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
 
- #menu__toggle:checked ~ .menu__btn > span::before {
-   top: 0;
-   transform: rotate(0);
- }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
 
- #menu__toggle:checked ~ .menu__btn > span::after {
-   top: 0;
-   transform: rotate(90deg);
- }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
 
- #menu__toggle:checked ~ .menu__box {
-   visibility: visible;
-   right: 0;
- }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
 }
 
 /* Медиа запрос для 360 */
@@ -2425,7 +2424,7 @@ body {
   }
 
   .speakers {
-    max-width: 100%
+    max-width: 100%;
   }
 
   .speakers__images1m {
@@ -2443,249 +2442,250 @@ body {
 
 /* Медиа запрос для 320 */
 
- @media (max-width: 320px) {
-   .wrapper {
-     max-width: 100%;
-   }
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 100%;
+  }
 
-   .main {
-     max-width: 100%;
-     margin: 0;
-     background: no-repeat url(img/mainImg2.png);
-     width: 100%;
-     height: 334px;
-     background-size: cover;
-   }
+  .main {
+    max-width: 100%;
+    margin: 0;
+    background: no-repeat url(img/mainImg2.png);
+    width: 100%;
+    height: 334px;
+    background-size: cover;
+  }
 
-   .menu {
-     display: none;
-   }
+  .menu {
+    display: none;
+  }
 
-   .main__title {
-     margin: 0;
-     font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
-     text-align: center;
-     padding: 43px 28px 0;
-   }
+  .main__title {
+    margin: 0;
+    font: 900 30px/35px 'Roboto', arial, helvetica, sans-serif;
+    text-align: center;
+    padding: 43px 28px 0;
+  }
 
-   .main__subtitle {
-     margin: 0;
-     padding: 5px 54px 0;
-     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-     text-align: center;
-   }
+  .main__subtitle {
+    margin: 0;
+    padding: 5px 54px 0;
+    font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+    text-align: center;
+  }
 
-   .main__subtitle-2 {
-     margin: 0;
-     padding: 0 54px 2px;
-     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-     margin-bottom: 108px;
-     text-align: center;
-   }
+  .main__subtitle-2 {
+    margin: 0;
+    padding: 0 54px 2px;
+    font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+    margin-bottom: 108px;
+    text-align: center;
+  }
 
-   .main__button {
-     margin: 0 32px 0 30px;
-     font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
-     padding: 14px 104px 13px;
-   }
+  .main__button {
+    margin: 0 32px 0 30px;
+    font: 900 15px/18px 'Roboto', arial, helvetica, sans-serif;
+    padding: 14px 104px 13px;
+  }
 
    /* Подать заявку 320px */
 
-   .middle {
-     max-width: 100%;
-     height: 295px;
-   }
+  .middle {
+    max-width: 100%;
+    height: 295px;
+  }
 
-   .middle__title {
-     margin: 0;
-     padding: 22px 39px 0 36px;
-     margin-bottom: 8px;
-     font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
-   }
+  .middle__title {
+    margin: 0;
+    padding: 22px 39px 0 36px;
+    margin-bottom: 8px;
+    font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  }
 
-   .middle__price {
-     margin: 0;
-     padding: 0;
-     margin: 0 98px 20px;
-     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-     text-align: center;
-     z-index: 100;
-   }
+  .middle__price {
+    margin: 0;
+    padding: 0;
+    margin: 0 98px 20px;
+    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+    text-align: center;
+    z-index: 100;
+  }
 
-   .middle__button {
-     margin: 0;
-     margin: 0 30px 28px;
-     justify-content: center;
-     padding: 11px 96px;
-     width: 260px;
-     height: 45px;
-     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-   }
+  .middle__button {
+    margin: 0;
+    margin: 0 30px 28px;
+    justify-content: center;
+    padding: 11px 96px;
+    width: 260px;
+    height: 45px;
+    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  }
 
-   .middle__book {
-     margin: 0 87px;
-     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-   }
+  .middle__book {
+    margin: 0 87px;
+    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  }
 
    /* Участник, фото 320px */
 
-   .participant {
-     margin: 0;
-     max-width: 100%;
-     height: 442px;
-     display: block;
-   }
+  .participant {
+    margin: 0;
+    max-width: 100%;
+    height: 442px;
+    display: block;
+  }
 
-   .participant__text {
-     margin: 0;
-     padding: 0;
-     text-align: center;
-   }
+  .participant__text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 
-   .participant__text_title {
-     max-width: 100%;
-     margin: 0;
-     padding: 37px 84px 4px;
-     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-   }
+  .participant__text_title {
+    max-width: 100%;
+    margin: 0;
+    padding: 37px 84px 4px;
+    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  }
 
-   .participant__text_subtitle {
-     margin: 0;
-     padding: 0 51px 21px 49px;
-     font: 900 10px/12px 'Roboto', arial, helvetica, sans-serif;
-   }
+  .participant__text_subtitle {
+    margin: 0;
+    padding: 0 51px 21px 49px;
+    font: 900 10px/12px 'Roboto', arial, helvetica, sans-serif;
+  }
 
-   .participant__image {
-     display: none;
-   }
+  .participant__image {
+    display: none;
+  }
 
-   .participant__image2 {
-     display: block;
-     margin: 0 30px 28px;
-     max-width: 260px;
-     max-height: 222px;
-   }
+  .participant__image2 {
+    display: block;
+    margin: 0 30px 28px;
+    max-width: 260px;
+    max-height: 222px;
+  }
 
-   .participant__button {
-     margin: 0 30px 0;
-     padding: 0;
-     width: 260px;
-     height: 45px;
-     font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
-   }
+  .participant__button {
+    margin: 0 30px 0;
+    padding: 0;
+    width: 260px;
+    height: 45px;
+    font: 900 20px/23px 'Roboto', arial, helvetica, sans-serif;
+  }
 
  /* Спикеры 320px */
 
-   .speakers {
-     max-width: 100%;
-     height: 471px;
-   }
+  .speakers {
+    max-width: 100%;
+    height: 471px;
+  }
 
-   .speakers__title {
-     padding: 33px 48px 29px 44px;
-     font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
-     text-align: center;
-   }
+  .speakers__title {
+    padding: 33px 48px 29px 44px;
+    font: 500 20px/23px 'Roboto', arial, helvetica, sans-serif;
+    text-align: center;
+  }
 
-   .speakers__images1, .speakers__images2 {
-     display: none;
-   }
+  .speakers__images1,
+  .speakers__images2 {
+    display: none;
+  }
 
-   .speakers__images1m {
-     display: block;
-     padding: 0 30px;
-   }
+  .speakers__images1m {
+    display: block;
+    padding: 0 30px;
+  }
 
-   .slider {
-     display: flex;
-     width: 66px;
-     height: 10px;
-     padding: 23px 127px 44px;
-   }
+  .slider {
+    display: flex;
+    width: 66px;
+    height: 10px;
+    padding: 23px 127px 44px;
+  }
 
-   .slider__circle {
-     width: 10px;
-     height: 10px;
-     border-radius: 50%;
-   }
+  .slider__circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
 
-   .slider__circle_color_blue {
-     margin-right: 18px;
-     background: #405dbb;
-   }
+  .slider__circle_color_blue {
+    margin-right: 18px;
+    background: #405dbb;
+  }
 
-   .slider__circle_color_grey {
-     margin-right: 18px;
-     background: #c4c4c4;
-   }
+  .slider__circle_color_grey {
+    margin-right: 18px;
+    background: #c4c4c4;
+  }
 
-   .slider__circle_color_grey2 {
-     background: #c4c4c4;
-   }
+  .slider__circle_color_grey2 {
+    background: #c4c4c4;
+  }
 
  /* Адрес, телефон 320px */
 
-   .footer {
-     max-width: 100%;
-     height: 92px;
-   }
+  .footer {
+    max-width: 100%;
+    height: 92px;
+  }
 
-   .mesto {
-     margin: 0;
-     font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
-     padding-top: 16px;
-   }
+  .mesto {
+    margin: 0;
+    font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
+    padding-top: 16px;
+  }
 
-   .location {
-     display: none;
-   }
+  .location {
+    display: none;
+  }
 
-   .location2 {
-     display: block;
-     margin: 0;
-     padding: 11px 2px 0 31px;
-   }
+  .location2 {
+    display: block;
+    margin: 0;
+    padding: 11px 2px 0 31px;
+  }
 
-   .phone {
-     margin: 0;
-     padding: 16px 0 0 60px;
-     font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
-   }
+  .phone {
+    margin: 0;
+    padding: 16px 0 0 60px;
+    font: 900 8px/9px 'Roboto', arial, helvetica, sans-serif;
+  }
 
-   .uphone {
-     margin: 0;
-     padding-bottom: 3px;
-   }
+  .uphone {
+    margin: 0;
+    padding-bottom: 3px;
+  }
 
-   .icons {
-     padding-top: 15px;
-   }
+  .icons {
+    padding-top: 15px;
+  }
 
-   .whatsappicon {
-     display: none;
-   }
+  .whatsappicon {
+    display: none;
+  }
 
-   .whatsappicon2 {
-     display: block;
-     margin: 0;
-     width: 20px;
-     height: 20px;
-     padding: 0 5px 0 7px;
-   }
+  .whatsappicon2 {
+    display: block;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    padding: 0 5px 0 7px;
+  }
 
-   .telegramicon {
-     display: none;
-   }
+  .telegramicon {
+    display: none;
+  }
 
-   .telegramicon2 {
-     display: block;
-     width: 20px;
-     height: 17px;
-   }
+  .telegramicon2 {
+    display: block;
+    width: 20px;
+    height: 17px;
+  }
 
-   .hamburger-menu {
-     display: block;
-   }
+  .hamburger-menu {
+    display: block;
+  }
 
    #menu__toggle {
      opacity: 0;
@@ -2693,86 +2693,86 @@ body {
 
    /* стилизуем кнопку для гамбургер */
 
-   .menu__btn {
-     display: flex;
-     align-items: center;
-     position: absolute;
-     align-items: flex-start;
-     top: 38px;
-     right: 29px;
-     width: 23px;
-     height: 15px;
-     cursor: pointer;
-     z-index: 102;
-   }
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    align-items: flex-start;
+    top: 38px;
+    right: 29px;
+    width: 23px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 102;
+  }
 
  /* добавляем "гамбургер" */
 
-   .menu__btn > span,
-   .menu__btn > span::before,
-   .menu__btn > span::after {
-     display: block;
-     position: absolute;
-     width: 100%;
-     height: 3px;
-     background-color: #fff;
-   }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+  }
 
-   .menu__btn > span::before {
-     content: '';
-     top: -8px;
-   }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
 
-   .menu__btn > span::after {
-     content: '';
-     top: 7px;
-   }
+  .menu__btn > span::after {
+    content: '';
+    top: 7px;
+  }
 
-   .menu__box {
-     display: block;
-     position: fixed;
-     visibility: hidden;
-     top: 0;
-     right: -100%;
-     width: 100%;
-     height: 100%;
-     margin: 0;
-     padding: 150px 0;
-     background-color: #405dbb;
-     z-index: 101;
-   }
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 150px 0;
+    background-color: #405dbb;
+    z-index: 101;
+  }
 
-   .menu__item {
-     margin: 0;
-     position: relative;
-     padding: 24px;
-     height: 36px;
-     width: max-content;
-     justify-content: center;
-     display: block;
-     font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
-     color: #fff;
-     text-decoration: none;
-   }
+  .menu__item {
+    margin: 0;
+    position: relative;
+    padding: 24px;
+    height: 36px;
+    width: max-content;
+    justify-content: center;
+    display: block;
+    font: 500 30px/35px 'Roboto', sans-serif, arial, helvetica;
+    color: #fff;
+    text-decoration: none;
+  }
 
-   #menu__toggle:checked ~ .menu__btn > span {
-     transform: rotate(45deg);
-   }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
 
-   #menu__toggle:checked ~ .menu__btn > span::before {
-     top: 0;
-     transform: rotate(0);
-   }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
 
-   #menu__toggle:checked ~ .menu__btn > span::after {
-     top: 0;
-     transform: rotate(90deg);
-   }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
 
-   #menu__toggle:checked ~ .menu__box {
-     visibility: visible;
-     right: 0;
-   }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
 }
 
 /* Медиазапрос для 318 */
